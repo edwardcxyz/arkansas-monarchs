@@ -95,9 +95,6 @@ export default {
             height: 24px;
             width: 208px;
         }
-        textarea {
-            width: 400px;
-        }
         label {
             font-size: .8rem;
             font-weight: bold;
