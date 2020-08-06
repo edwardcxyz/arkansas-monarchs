@@ -21,7 +21,7 @@
 <style scoped>
 .embed-container {
     position: relative;
-    height: 400px;
+    height: 600px;
     padding-bottom:80%;
     max-width: 100%;
 }
