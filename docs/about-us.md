@@ -1,5 +1,5 @@
 <div class="big-logo">
-    <img src="/img/logo.png"/>
+    <img src="/img/about-us.jpeg"/>
 </div>
 
 ### About Us

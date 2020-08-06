@@ -1,4 +1,6 @@
 ## Take the Pledge
+
+![MOC Signing](/img/signing.jpeg)
 <div class="form-container">
     <div class="input-group">
         <label for="firstName">First Name</label>
@@ -71,6 +73,9 @@ export default {
 
 <style lang="scss">
 .form-container {
+    position: relative;
+    top: -160px;
+    background: #fff;
     border: 1px solid #ccc;
     border-radius: 6px;
     min-height: 100px;

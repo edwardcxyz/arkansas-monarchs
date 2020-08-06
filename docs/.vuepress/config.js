@@ -14,6 +14,7 @@ module.exports = {
             ['/about-us', 'About Us'],
             '/why-monarchs',
             '/lifecycle',
+            '/register'
         ]
     }
 }
