@@ -11,10 +11,16 @@ module.exports = {
         ],
         sidebar: [
             '/',
-            ['/about-us', 'About Us'],
+            '/about-us',
             '/why-monarchs',
             '/lifecycle',
-            '/register'
+            '/migration',
+            '/threats',
+            '/the-plan',
+            '/habitat',
+            '/events',
+            '/register',
+            '/join-us',
         ]
     }
 }

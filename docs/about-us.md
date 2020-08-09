@@ -1,8 +1,7 @@
-<div class="big-logo">
-    <img src="/img/about-us.jpeg"/>
-</div>
+# About Us
 
-### About Us
+![About Us](/img/about-us.jpeg)
+
 Over the past two decades, the monarch butterfly (Danaus plexippus) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
 
 Over the past two decades, the monarch butterfly (Danaus plexippus) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
@@ -18,10 +17,8 @@ Our vision is to help Arkansans share appreciation for the importance and value 
 ### Goals
 The steering committee finalized the Arkansas Monarch and Pollinator Conservation Plan in May 2018. Our statewide strategic plan outlines specific goals and objectives for creating and enhancing habitat, research and monitoring of monarchs and native pollinators, and outreach and education efforts.
 
-<style>
-.big-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+<style scoped>
+img {
+    margin-bottom: 24px;
 }
 </style>

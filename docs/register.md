@@ -1,4 +1,18 @@
-## Register Your Efforts
+## Register Your Efforts!
+There are a lot of exciting things happening in Arkansas to benefit monarchs and pollinators, and we want to know all about it! Whether it's a native prairie planting, an art installation, or a backyard garden, your efforts deserve recognition and can help inspire others!
+
+This is simply a registry, not a certification program. All types of monarch- and pollinator-related projects are welcome!
+
+Information gathered from this registration form will be published for public use on the Arkansas Monarch Conservation Partnership (AMCP) website and may be used in other materials and communications channels of the AMCP and its partners. Only indicated public projects will be added to the interactive map.
+
+Submissions must be Arkansas-based monarch/pollinator projects and will be published upon administrator's approval.
+
+
+:::warning Disclaimer
+Information gathered from this registration form will be published for public use on this website and may be used in other Partnership materials and communications channels. Submissions must be Arkansas-based monarch and pollinator projects and will be published upon administrator’s approval.
+:::
+
+
 <div class="form-container">
     <div class="embed-container">
         <iframe

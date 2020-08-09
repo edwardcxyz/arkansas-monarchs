@@ -14,3 +14,21 @@ body {
 .home .hero h1 {
     font-size: 2rem !important;
 }
+
+a.button {
+    padding: 8px 16px;
+    background-color:$green-bright;
+    border: none;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    transition: all 0.2s;
+    &:hover {
+        background-color: darken($green-bright, 15%);
+        text-decoration: none !important;
+    }
+}
