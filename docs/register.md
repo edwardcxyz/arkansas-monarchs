@@ -1,4 +1,4 @@
-## Register Your Efforts!
+# Register Your Efforts!
 There are a lot of exciting things happening in Arkansas to benefit monarchs and pollinators, and we want to know all about it! Whether it's a native prairie planting, an art installation, or a backyard garden, your efforts deserve recognition and can help inspire others!
 
 This is simply a registry, not a certification program. All types of monarch- and pollinator-related projects are welcome!

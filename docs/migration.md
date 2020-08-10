@@ -2,6 +2,8 @@
 
 In North America, there are two distinct monarch populations that are separated by the Rocky Mountains. The western population overwinters in California, while the eastern population that we observe here in Arkansas, overwinters in high-elevation oyamel fir (Abies religiosa) forests in central Mexico. This incredible two-way migration is one of nature’s greatest phenomenon that stretches up to 3,000 miles! There is also a small non-migratory population in Florida that breeds year-round.
 
+![Migration Map](/img/migration-map.png)
+
 ## Fall - Southerly Migration
 As the days get shorter and cooler, the monarch migration begins. Most adult monarchs live 2 to 5 weeks, but the generation that migrates to the overwintering grounds lives eight times longer and travels 10 times farther. This generation is often called the “super generation” and they are in a state called reproductive diapause. In diapause, they biologically cannot mate or lay eggs. This is significant because this biological mechanism allows them to conserve energy and live up to nine months. A supply of late blooming nectar plants are incredibly important to fuel their migration and so they can store fat for the winter.
 
