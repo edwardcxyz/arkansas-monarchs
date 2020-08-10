@@ -18,6 +18,7 @@ module.exports = {
             '/threats',
             '/the-plan',
             '/habitat',
+            '/publications',
             '/events',
             '/register',
             '/join-us',
