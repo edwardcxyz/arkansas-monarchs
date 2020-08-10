@@ -14,7 +14,6 @@ features:
   details: Expand communication and collaboration through partnership among organizations and individuals interested in supporting monarch butterfly and pollinator conservation. The partnership is seeking agency and individual collaborators who can help to educate, procure funding, and provide scientific research that will support monarch butterfly and pollinator conservation in Arkansas and throughout North America.
 - title: Get Involved!
   details: Sign up to receive monarch and pollinator news from Arkansas Monarch Conservation Partnership!
-footer: This is the footer.  yay!
+footer: ©2020 Arkansas Monarch Conservation Partnership
 ---
-# Hello.
-this is plain text.......
+<!-- <div>{{ $page.footer }}</div> -->
