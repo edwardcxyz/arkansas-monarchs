@@ -1,18 +1,38 @@
 body {
-    /* background-color: #f9f9d5; */
+    background-color: $body-bg;
 }
 .navbar {
-    background-color: #7bb05c;
+    background-color: $navbar-bg;
+    .site-name {
+        font-size: 1rem !important;
+    }
 }
 .links {
     background-color: unset !important;
 }
 .sidebar {
     /* background-color: #CABCB6; */
+    background-color: $body-bg;
 }
 
-.home .hero h1 {
-    font-size: 2rem !important;
+.home {
+    .hero {
+        #main-title {
+            font-size: 2rem !important;
+        }
+        .description {
+            // display: none;
+            font-size: 1.2rem !important;
+        }
+        img {
+            border-radius: 8px;
+        }
+    }
+    .video-container {
+        display: flex;
+        justify-content: center;
+        margin: 24px 0;
+    }
 }
 
 a.button {

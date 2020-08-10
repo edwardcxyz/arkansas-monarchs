@@ -5,10 +5,10 @@ module.exports = {
     themeConfig: {
         logo: '/img/logo.png',
         search: true,
-        nav: [
-            { text: 'About Us', link: '/about-us' },
-            { text: 'Sign the Pledge', link: '/pledge/' },
-        ],
+        // nav: [
+        //     { text: 'About Us', link: '/about-us' },
+        //     { text: 'Sign the Pledge', link: '/pledge/' },
+        // ],
         sidebar: [
             '/',
             '/about-us',
