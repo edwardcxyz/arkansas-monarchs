@@ -5,6 +5,7 @@ search: true
 heroImage: /img/image98.jpg
 actionText: Learn More
 actionLink: ./about-us
+videoLink: https://res.cloudinary.com/edwardcxyz/video/upload/v1583600473/ArkansasMonarchs/Wings_of_Hope-_Monarchs_in_the_Natural_State.mp4
 # features:
 # - title: Mission
 #   details: Working together to create, enhance, and conserve monarch and pollinator habitat in The Natural State.
@@ -17,9 +18,8 @@ footer: ©2020 Arkansas Monarch Conservation Partnership
 
 ---
 
-<div class="video-container">
-  <video width="400" height="225" controls>
-    <source src="https://res.cloudinary.com/edwardcxyz/video/upload/v1583600473/ArkansasMonarchs/Wings_of_Hope-_Monarchs_in_the_Natural_State.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+
+
+<style lang="scss">
+
+</style>

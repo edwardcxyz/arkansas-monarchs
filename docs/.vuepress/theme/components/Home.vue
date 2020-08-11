@@ -21,17 +21,17 @@
         v-if="data.tagline !== null"
         class="description"
       >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        {{ data.tagline || $description || '' }}
       </p>
 
-      <p
+      <!-- <p
         v-if="data.actionText && data.actionLink"
         class="action"
       >
         <NavLink
           class="action-button"
           :item="actionLink"
-        />
+        /> -->
       </p>
     </header>
 
@@ -46,6 +46,21 @@
       >
         <h2>{{ feature.title }}</h2>
         <p>{{ feature.details }}</p>
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="video-container">
+        <video controls poster="https://res.cloudinary.com/edwardcxyz/image/upload/v1581204642/ArkansasMonarchs/ar-mon-logo.png">
+          <source :src="data.videoLink" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="feature-blurb">
+        Our vision is to help Arkansans share appreciation for the importance and value of monarch butterflies and pollinators, and to work to conserve healthy habitats that support robust populations of these species across The Natural State.
+        <p v-if="data.tagline !== null" class="description">
+          {{ data.tagline || $description || '' }}
+        </p>
       </div>
     </div>
 
@@ -118,6 +133,24 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         background-color lighten($accentColor, 10%)
+  .feature-row
+    display flex
+    flex-flow row wrap
+    justify-content center
+    align-items flex-start
+    div
+      flex-basis 40%
+    .feature-blurb
+      flex-grow 1
+      padding 8px 24px
+      p
+        max-width 400px
+    .video-container
+      text-align center
+      min-width 300px
+      flex-grow 1
+      video
+        max-width 100%
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
