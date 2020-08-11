@@ -144,6 +144,7 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
+    font-size 0.7rem
 
 @media (max-width: $MQMobile)
   .home
