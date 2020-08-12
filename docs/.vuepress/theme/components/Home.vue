@@ -24,6 +24,8 @@
         {{ data.tagline || $description || '' }}
       </p>
 
+      <NavLinks/>
+
       <!-- <p
         v-if="data.actionText && data.actionLink"
         class="action"
@@ -33,6 +35,7 @@
           :item="actionLink"
         /> -->
       </p>
+      
     </header>
 
     <div
@@ -50,17 +53,27 @@
     </div>
 
     <div class="feature-row">
+      <div class="feature-thumb">
+        <img src="/img/DSC_3311.jpg">
+      </div>
+      <div class="feature-blurb">
+        <h3>Arkansas Monarch and Pollinator Conservation Plan</h3>
+        <a href="https://res.cloudinary.com/edwardcxyz/image/upload/v1597203794/ArkansasMonarchs/Arkansas-Monarch-and-Pollinator-Conservation-Plan-SinglePageLayout.pdf">
+          View the PDF
+        </a>
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-blurb">
+        <h3>Wings of Hope</h3>
+        The “Wings of Hope” video was generously funded by the U.S. Fish and Wildlife Service and U.S. Fish and Wildlife Service Partners for Fish and Wildlife with additional contributions from the Arkansas Natural Heritage Commission, Arkansas Department of Heritage, Arkansas Game and Fish Commission, The Nature Conservancy, Pulaski Conservation District, Arkansas Department of Transportation and the Botanical Garden of the Ozarks.
+      </div>
       <div class="video-container">
         <video controls poster="https://res.cloudinary.com/edwardcxyz/image/upload/v1581204642/ArkansasMonarchs/ar-mon-logo.png">
           <source :src="data.videoLink" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-      </div>
-      <div class="feature-blurb">
-        Our vision is to help Arkansans share appreciation for the importance and value of monarch butterflies and pollinators, and to work to conserve healthy habitats that support robust populations of these species across The Natural State.
-        <p v-if="data.tagline !== null" class="description">
-          {{ data.tagline || $description || '' }}
-        </p>
       </div>
     </div>
 
@@ -77,11 +90,12 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
+import NavLinks from '@theme/components/NavLinks.vue'
 
 export default {
   name: 'Home',
 
-  components: { NavLink },
+  components: { NavLink, NavLinks },
 
   computed: {
     data () {
@@ -121,6 +135,7 @@ export default {
       font-size 1.6rem
       line-height 1.3
       color lighten($textColor, 40%)
+      margin-bottom 8px
     .action-button
       display inline-block
       font-size 1.2rem
@@ -138,11 +153,16 @@ export default {
     flex-flow row wrap
     justify-content center
     align-items flex-start
+    margin-bottom: 40px;
     div
       flex-basis 40%
+      display block
+      vertical-align center
     .feature-blurb
       flex-grow 1
-      padding 8px 24px
+      padding 0px 24px
+      h3
+        margin-top: 0;
       p
         max-width 400px
     .video-container
@@ -151,6 +171,14 @@ export default {
       flex-grow 1
       video
         max-width 100%
+        border-radius: 4px;
+        box-shadow: 1px 1px 8px #333;
+    .feature-thumb
+      img
+        min-width: 300px;
+        max-width: 100%;
+        border-radius: 4px;
+        box-shadow: 1px 1px 8px #333;
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
