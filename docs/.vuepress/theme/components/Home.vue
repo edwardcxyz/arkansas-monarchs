@@ -54,7 +54,7 @@
 
     <div class="feature-row">
       <div class="feature-thumb">
-        <img src="/img/DSC_3311.jpg">
+        <img src="/img/echinacea-field-thumb.png">
       </div>
       <div class="feature-blurb">
         <h3>Arkansas Monarch and Pollinator Conservation Plan</h3>
@@ -153,7 +153,7 @@ export default {
     flex-flow row wrap
     justify-content center
     align-items flex-start
-    margin-bottom: 40px;
+    margin 40px 0 80px 0
     div
       flex-basis 40%
       display block

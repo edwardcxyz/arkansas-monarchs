@@ -2,7 +2,7 @@
 home: true
 search: true
 # heroText: Arkansas Monarch Conservation Partnership
-heroImage: /img/image98.jpg
+heroImage: /img/hero-01.png
 actionText: Learn More
 actionLink: ./about-us
 videoLink: https://res.cloudinary.com/edwardcxyz/video/upload/v1583600473/ArkansasMonarchs/Wings_of_Hope-_Monarchs_in_the_Natural_State.mp4
