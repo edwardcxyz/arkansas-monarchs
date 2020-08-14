@@ -19,7 +19,7 @@ module.exports = {
             '/threats',
             '/the-plan',
             '/habitat',
-            '/publications',
+            '/bibliography',
             '/events',
             '/register',
             '/join-us',
