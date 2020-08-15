@@ -125,6 +125,8 @@ export default {
 <style lang="stylus">
 .nav-links
   display inline-block
+  text-align center
+  width 100%
   a
     line-height 1.4rem
     color inherit
@@ -133,8 +135,17 @@ export default {
   .nav-item
     position relative
     display inline-block
-    margin-left 1.5rem
-    line-height 2rem
+    font-size 1.2rem
+    color #fff
+    background-color $accentColor
+    padding 0.8rem 1.6rem
+    border-radius 4px
+    transition background-color .1s ease
+    box-sizing border-box
+    border-bottom 1px solid darken($accentColor, 10%)
+    margin 16px
+    &:hover
+      background-color lighten($accentColor, 10%)
     &:first-child
       margin-left 0
   .repo-link
