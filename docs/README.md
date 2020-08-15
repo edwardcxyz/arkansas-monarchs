@@ -17,9 +17,3 @@ footer: ©2020 Arkansas Monarch Conservation Partnership
 ---
 
 ---
-
-
-
-<style lang="scss">
-
-</style>

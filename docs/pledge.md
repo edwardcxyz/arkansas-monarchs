@@ -70,54 +70,40 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.form-container {
+<style lang="stylus">
+.form-container
     position: relative;
-    /* top: -160px; */
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 6px;
     min-height: 100px;
-
     display: flex;
     flex-flow: column nowrap;
     padding: 8px;
-    
-    .form-row {
+    .form-row
         display: flex;
         flex-flow: row nowrap;
-    }
-
-    .input-group {
+    .input-group 
         display: flex;
         flex-flow: column nowrap;
         margin: 8px;
-        input {
+        input
             width: 200px;
-        }
-        select {
+        select
             height: 24px;
             width: 208px;
-        }
-        label {
+        label
             font-size: .8rem;
             font-weight: bold;
             margin-bottom: 4px;
-        }
-        option {
+        option
             text-transform: capitalize;
-        }
-    }
-    .checkbox-group {
+    .checkbox-group
         display: flex;
         flex-flow: column nowrap;
         margin: 8px;
-        .checkbox-item {
+        .checkbox-item
             margin: 2px;
-            label {
+            label
                 margin-left: 8px;
-            }
-        }
-    }
-}
 </style>

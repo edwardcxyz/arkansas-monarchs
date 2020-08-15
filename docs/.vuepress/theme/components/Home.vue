@@ -34,6 +34,9 @@
       </div>
       <div class="feature-blurb">
         <h3>Arkansas Monarch and Pollinator Conservation Plan</h3>
+        <p>
+          Following years of declines in populations of monarch butterflies and pollinators, the U.S. Fish and Wildlife Service has received petitions to list several pollinator species as threatened or endangered under the Endangered Species Act. The presidents of the United States and Mexico and the prime minister of Canada have called for cooperative action to address declining monarch populations. In June 2014, a Presidential Memorandum was issued from the White House directing federal actions to address the issue of pollinator conservation resulting in the creation of a Pollinator Health Task Force and the National Strategy to Promote the Health of Honey Bees and Other Pollinators
+        </p>
         <a href="https://res.cloudinary.com/edwardcxyz/image/upload/v1597203794/ArkansasMonarchs/Arkansas-Monarch-and-Pollinator-Conservation-Plan-SinglePageLayout.pdf">
           View the PDF
         </a>
@@ -135,19 +138,18 @@ export default {
     display flex
     flex-flow row wrap
     justify-content center
-    align-items flex-start
+    align-items center
     margin 40px 0 80px 0
     div
       flex-basis 40%
       display block
-      vertical-align center
     .feature-blurb
       flex-grow 1
       padding 0px 24px
       h3
         margin-top: 0;
       p
-        max-width 400px
+        // max-width 400px
     .video-container
       text-align center
       min-width 300px
