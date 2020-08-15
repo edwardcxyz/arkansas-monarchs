@@ -19,6 +19,8 @@ module.exports = {
             '/threats',
             '/the-plan',
             '/habitat',
+            '/nurseries',
+            '/resources',
             '/bibliography',
             '/events',
             '/register',
