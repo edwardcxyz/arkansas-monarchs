@@ -21,3 +21,12 @@
 * [Get involved as an agricultural producer](https://www.fws.gov/savethemonarch/agriculture.html)
 * [Reducing Ricks to Pollinators from Insect and Plant Pest Control](https://www.fws.gov/pollinators/pdfs/FWS_IPM_Farmland_Outreach_Final_April_26_2018_web_508.pdf)
 
+## Guides & Additional Information
+* [Pollinator.org](https://www.pollinator.org/)
+* [Xerces - Establishing Pollinator Meadows from Seed](http://www.xerces.org/wp-content/uploads/2013/12/EstablishingPollinatorMeadows.pdf)
+
+## Citizen Science & Certification
+* [Monarch Waystation Certification](https://monarchwatch.org/waystations/certify.html)
+* [Arkansas Monarch Mapping Project](https://www.inaturalist.org/projects/arkansas-monarch-mapping-project)
+* [Monarch Conservation Database](https://www.fws.gov/savethemonarch/MCD.html)
+* [Million Pollinator Garden Challenge](http://millionpollinatorgardens.org/)
