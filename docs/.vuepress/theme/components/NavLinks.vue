@@ -7,7 +7,6 @@
     <div
       v-for="item in userLinks"
       :key="item.link"
-      class="nav-item"
     >
       <DropdownLink
         v-if="item.type === 'links'"
@@ -128,15 +127,10 @@ export default {
   text-align center
   width 100%
   a
-    line-height 1.4rem
-    color inherit
-    &:hover, &.router-link-active
-      color $accentColor
-  .nav-item
     position relative
     display inline-block
     font-size 1.2rem
-    color #fff
+    color $body-bg
     background-color $accentColor
     padding 0.8rem 1.6rem
     border-radius 4px
@@ -144,8 +138,16 @@ export default {
     box-sizing border-box
     border-bottom 1px solid darken($accentColor, 10%)
     margin 16px
+    line-height 1.4rem
     &:hover
       background-color lighten($accentColor, 10%)
+    &:first-child
+      margin-left 0
+    &:hover, &.router-link-active
+      color $accentColor
+  .nav-item
+    position relative
+    display inline-block
     &:first-child
       margin-left 0
   .repo-link
@@ -159,7 +161,7 @@ export default {
 @media (min-width: $MQMobile)
   .nav-links a
     &:hover, &.router-link-active
-      color $textColor
+      color $body-bg
   .nav-item > a:not(.external)
     &:hover, &.router-link-active
       margin-bottom -2px
