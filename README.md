@@ -1,1 +1,3 @@
+```bash
 vuepress dev docs
+```
