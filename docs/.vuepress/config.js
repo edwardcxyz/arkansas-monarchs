@@ -25,6 +25,7 @@ module.exports = {
             '/events',
             '/register',
             '/join-us',
+            '/native-plants'
         ]
     }
 }

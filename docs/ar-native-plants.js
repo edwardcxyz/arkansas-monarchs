@@ -1,8 +1,9 @@
 module.exports = [
     {
+      id: 0,
       scientificName: 'Aesculus pavia',
       commonName: 'Red Buckeye',
-      bloomPeriod: 'Spring to Early Summer',
+      bloomPeriod: 'Spring to Summer',
       color: 'Red',
       lighting: 'Sun to Shade',
       water: 'Medium',
@@ -12,6 +13,7 @@ module.exports = [
       comments: 'Small tree for rain gardens, but can also be drought tolerant.',
     },
     {
+      id: 1,
       scientificName: 'Amorpha canescens',
       commonName: 'Leadplant',
       bloomPeriod: 'Summer to Fall',
@@ -24,6 +26,7 @@ module.exports = [
       comments: 'Woody shrub',
     },
     {
+      id: 2,
       scientificName: 'Amsonia tabernaemontana',
       commonName: 'Eastern Bluestar',
       bloomPeriod: 'Spring',
@@ -36,6 +39,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 3,
       scientificName: 'Aristolochia tomentosa',
       commonName: 'Dutchman\'s Pipevine',
       bloomPeriod: 'Spring to Summer',
@@ -48,6 +52,7 @@ module.exports = [
       comments: 'Host plant for pipevine swallowtail larvae',
     },
     {
+      id: 4,
       scientificName: 'Asclepias incarnata',
       commonName: 'Swamp Milkweed',
       bloomPeriod: 'Spring to Summer',
@@ -60,6 +65,7 @@ module.exports = [
       comments: 'Native to NWA; can tolerate moisture.',
     },
     {
+      id: 5,
       scientificName: 'Asclepias sullivantii',
       commonName: 'Prairie Milkweed',
       bloomPeriod: 'Spring to Summer',
@@ -72,9 +78,10 @@ module.exports = [
       comments: '',
     },
     {
+      id: 6,
       scientificName: 'Asclepias syriaca',
       commonName: 'Common Milkweed',
-      bloomPeriod: 'Early to Mid-Summer',
+      bloomPeriod: 'Summer',
       color: 'Lavendar',
       lighting: 'Sun to Partial Shade',
       water: 'Medium',
@@ -84,18 +91,20 @@ module.exports = [
       comments: 'Vigorous spreader',
     },
     {
+      id: 7,
       scientificName: 'Asclepias tuberosa',
       commonName: 'Butterfly Milkweed',
-      bloomPeriod: 'Late Spring to Summer',
+      bloomPeriod: 'Spring to Summer',
       color: 'Oragne',
       lighting: 'Sun',
       water: 'Low, Medium',
       height: '1-2.5',
-      benefits: 'Bee, Butterflies, Moths, Hummingbird',
+      benefits: 'Bees, Butterflies, Moths, Hummingbirds',
       imageUrl: 'https://res.cloudinary.com/edwardcxyz/image/upload/v1583280573/ArkansasMonarchs/plants/1920px-Asclepias_tuberosa_WFNY-171.jpg',
       comments: 'Can bloom again in fall!',
     },
     {
+      id: 8,
       scientificName: 'Asclepias viridis',
       commonName: 'Antelopehorn Milkweed',
       bloomPeriod: 'Spring to Summer',
@@ -108,6 +117,7 @@ module.exports = [
       comments: 'Spreads slowly',
     },
     {
+      id: 9,
       scientificName: 'Baptisia alba var. macrophylla',
       commonName: 'White Wild Indigo',
       bloomPeriod: 'Summer',
@@ -120,9 +130,10 @@ module.exports = [
       comments: '',
     },
     {
+      id: 10,
       scientificName: 'Callirhoe involucrata',
       commonName: 'Wine Cup',
-      bloomPeriod: 'Early Spring to Summer',
+      bloomPeriod: 'Spring to Summer',
       color: 'Purple/Red',
       lighting: 'Sun',
       water: 'Low',
@@ -132,6 +143,7 @@ module.exports = [
       comments: 'Drought tolerant once established',
     },
     {
+      id: 11,
       scientificName: 'Ceanothus americanus',
       commonName: 'New Jersey Tea',
       bloomPeriod: 'Spring to Summer',
@@ -144,6 +156,7 @@ module.exports = [
       comments: 'Woody shrub',
     },
     {
+      id: 12,
       scientificName: 'Cephalanthus occidentalis',
       commonName: 'Buttonbush',
       bloomPeriod: 'Summer',
@@ -156,6 +169,7 @@ module.exports = [
       comments: 'Woody shrub - good for rain gardens',
     },
     {
+      id: 13,
       scientificName: 'Cercis canadensis',
       commonName: 'Eastern Redbud',
       bloomPeriod: 'Spring',
@@ -168,6 +182,7 @@ module.exports = [
       comments: 'Small tree',
     },
     {
+      id: 14,
       scientificName: 'Conoclinium coelestinum',
       commonName: 'Blue Mistflower',
       bloomPeriod: 'Summer to Fall',
@@ -180,6 +195,7 @@ module.exports = [
       comments: 'Can spread vigorously',
     },
     {
+      id: 15,
       scientificName: 'Coreopsis lanceolata',
       commonName: 'Lanceleaf Coreopsis',
       bloomPeriod: 'Spring to Summer',
@@ -192,9 +208,10 @@ module.exports = [
       comments: 'May take 2 years to establish.',
     },
     {
+      id: 16,
       scientificName: 'Dalea purpurea',
       commonName: 'Purple Prairie Clover',
-      bloomPeriod: 'Spring to Fall',
+      bloomPeriod: 'Summer to Fall',
       color: 'Lavender/Purple',
       lighting: 'Sun to Partial Shade',
       water: 'Low',
@@ -204,6 +221,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 17,
       scientificName: 'Echinacea pallida',
       commonName: 'Pale Purple Coneflower',
       bloomPeriod: 'Summer',
@@ -216,6 +234,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 18,
       scientificName: 'Echinacea purpurea',
       commonName: 'Purple Coneflower',
       bloomPeriod: 'Summer',
@@ -228,6 +247,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 19,
       scientificName: 'Eryngium yuccifolium',
       commonName: 'Rattlesnake Master',
       bloomPeriod: 'Summer',
@@ -240,9 +260,10 @@ module.exports = [
       comments: 'Good pollinator plant',
     },
     {
+      id: 20,
       scientificName: 'Eupatorium perfoliatum',
       commonName: 'Common Boneset',
-      bloomPeriod: 'Late Summer to Fall',
+      bloomPeriod: 'Summer to Fall',
       color: 'White',
       lighting: 'Sun',
       water: 'Medium, High',
@@ -252,6 +273,7 @@ module.exports = [
       comments: 'Important for Fall migration',
     },
     {
+      id: 21,
       scientificName: 'Eutrochium purpureum',
       commonName: 'Joe Pye Weed',
       bloomPeriod: 'Summer',
@@ -264,6 +286,7 @@ module.exports = [
       comments: 'Good for rain gardens',
     },
     {
+      id: 22,
       scientificName: 'Glandulararia canadensis',
       commonName: 'Rose Vervain',
       bloomPeriod: 'Spring to Summer',
@@ -276,6 +299,7 @@ module.exports = [
       comments: 'Porous and well-drained soil needed',
     },
     {
+      id: 23,
       scientificName: 'Helianthus angustifolius',
       commonName: 'Narrowleaf Sunflower',
       bloomPeriod: 'Fall',
@@ -288,6 +312,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 24,
       scientificName: 'Helianthus divaricatus',
       commonName: 'Woodland Sunflower',
       bloomPeriod: 'Summer',
@@ -300,6 +325,7 @@ module.exports = [
       comments: 'May form colony',
     },
     {
+      id: 25,
       scientificName: 'Liatris aspera',
       commonName: 'Tall Blazing Star',
       bloomPeriod: 'Summer to Fall',
@@ -312,6 +338,7 @@ module.exports = [
       comments: 'Excellent nectar plant for butterflies',
     },
     {
+      id: 26,
       scientificName: 'Liatris pycnostachya',
       commonName: 'Prairie Blazing Star',
       bloomPeriod: 'Summer',
@@ -324,6 +351,7 @@ module.exports = [
       comments: 'Excellent nectar plant for butterflies',
     },
     {
+      id: 27,
       scientificName: 'Lindera benzoin',
       commonName: 'Spice Bush',
       bloomPeriod: 'Spring',
@@ -336,6 +364,7 @@ module.exports = [
       comments: 'Host plant for spice bush swallowtail larvae',
     },
     {
+      id: 28,
       scientificName: 'Monarda bradburiana',
       commonName: 'Eastern beebalm',
       bloomPeriod: 'Spring',
@@ -348,6 +377,7 @@ module.exports = [
       comments: 'May form a colony',
     },
     {
+      id: 29,
       scientificName: 'Monarda fistulosa',
       commonName: 'Wild Bergamot',
       bloomPeriod: 'Spring',
@@ -360,6 +390,7 @@ module.exports = [
       comments: 'Great plant for pollinators',
     },
     {
+      id: 30,
       scientificName: 'Penstemon digitalis',
       commonName: 'Foxglove Beardtongue',
       bloomPeriod: 'Summer',
@@ -372,6 +403,7 @@ module.exports = [
       comments: 'Great plant for moths',
     },
     {
+      id: 31,
       scientificName: 'Phlox divaricata',
       commonName: 'Woodland Phlox',
       bloomPeriod: 'Spring',
@@ -384,6 +416,7 @@ module.exports = [
       comments: 'Great nectar source for butterflies',
     },
     {
+      id: 32,
       scientificName: 'Phlox paniculata',
       commonName: 'Garden Phlox',
       bloomPeriod: 'Summer to Fall',
@@ -396,6 +429,7 @@ module.exports = [
       comments: 'Great nectar source for butterflies',
     },
     {
+      id: 33,
       scientificName: 'Pycnanthemum tenuifolium',
       commonName: 'Slender Mountain Mint',
       bloomPeriod: 'Summer',
@@ -408,6 +442,7 @@ module.exports = [
       comments: 'Excellent nectar plant for butterflies',
     },
     {
+      id: 34,
       scientificName: 'Pycnantheum muticum',
       commonName: 'Clustered Mountain Mint',
       bloomPeriod: 'Summer to Fall',
@@ -420,6 +455,7 @@ module.exports = [
       comments: 'Excellent nectar plant for butterflies',
     },
     {
+      id: 35,
       scientificName: 'Rudbeckia hirta',
       commonName: 'Black-eyed Susan',
       bloomPeriod: 'Summer',
@@ -432,6 +468,7 @@ module.exports = [
       comments: 'Annual or short-lived perennial',
     },
     {
+      id: 36,
       scientificName: 'Rudbeckia fulgida',
       commonName: 'Black-eyed Susan',
       bloomPeriod: 'Summer',
@@ -444,6 +481,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 37,
       scientificName: 'Salvia azurea',
       commonName: 'Azure Blue Sage',
       bloomPeriod: 'Summer to Fall',
@@ -456,6 +494,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 38,
       scientificName: 'Solidago caesia',
       commonName: 'Wreath Goldenrod',
       bloomPeriod: 'Fall',
@@ -468,6 +507,7 @@ module.exports = [
       comments: 'Goldenrod which tolerates some shade',
     },
     {
+      id: 39,
       scientificName: 'Solidago nemoralis',
       commonName: 'Gray Goldenrod',
       bloomPeriod: 'Summer',
@@ -480,6 +520,7 @@ module.exports = [
       comments: 'Thrives in poor, dry soils in sunny locations',
     },
     {
+      id: 40,
       scientificName: 'Solidago petiolaris',
       commonName: 'Downy Ragged Goldenrod',
       bloomPeriod: 'Summer to Fall',
@@ -492,6 +533,7 @@ module.exports = [
       comments: 'Nectar source for monarch butterflies',
     },
     {
+      id: 41,
       scientificName: 'Symphyotrichum novae-angliae',
       commonName: 'New England Aster',
       bloomPeriod: 'Fall',
@@ -504,6 +546,7 @@ module.exports = [
       comments: 'Great for migrating monarchs',
     },
     {
+      id: 42,
       scientificName: 'Symphyotrichum oblongifolium',
       commonName: 'Aromatic Aster',
       bloomPeriod: 'Fall',
@@ -516,6 +559,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 43,
       scientificName: 'Vernonia arkansana',
       commonName: 'Curlytop Ironweed',
       bloomPeriod: 'Summer',
@@ -528,6 +572,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 44,
       scientificName: 'Vernonia baldwinii',
       commonName: 'Baldwin\'s Ironweed',
       bloomPeriod: 'Summer',
@@ -540,6 +585,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 45,
       scientificName: 'Veronicastrum virginicum',
       commonName: 'Culver\'s Root',
       bloomPeriod: 'Spring to Summer',
@@ -552,6 +598,7 @@ module.exports = [
       comments: '',
     },
     {
+      id: 46,
       scientificName: 'Zizia aurea',
       commonName: 'Golden Alexanders',
       bloomPeriod: 'Spring',
