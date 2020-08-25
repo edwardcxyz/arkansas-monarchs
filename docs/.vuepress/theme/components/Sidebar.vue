@@ -57,7 +57,9 @@ export default {
 @media (max-width: $MQMobile)
   .sidebar
     .nav-links
-      display block
+      display flex
+      justify-content flex-start
+      padding-left 8px
       .dropdown-wrapper .nav-dropdown .dropdown-item a.router-link-active::after
         top calc(1rem - 2px)
     & > .sidebar-links

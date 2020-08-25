@@ -123,9 +123,11 @@ export default {
 
 <style lang="stylus">
 .nav-links
-  display inline-block
-  text-align center
+  display flex
+  flex-flow row wrap
+  justify-content center
   width 100%
+  text-align center
   a
     position relative
     display inline-block
@@ -155,6 +157,7 @@ export default {
 
 @media (max-width: $MQMobile)
   .nav-links
+    display none
     .nav-item, .repo-link
       margin-left 0
 
