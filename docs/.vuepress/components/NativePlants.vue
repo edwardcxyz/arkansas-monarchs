@@ -103,6 +103,10 @@ export default {
             })
       },
   },
+  created() {
+      let uniqueLighting = new Set([...this.plants.map(p => p.lighting)]);
+      console.log('lighting', uniqueLighting);
+  }
 };
 </script>
 
