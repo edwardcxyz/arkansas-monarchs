@@ -103,7 +103,7 @@ export default {
     margin-top 24px
     text-align center
     background-image url('/img/hero-01.png')
-    height 40vh
+    height 30vh
     width 100%
     background-position: center;
     background-repeat: no-repeat;
