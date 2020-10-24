@@ -2,6 +2,12 @@ module.exports = {
     extend: '@vuepress/theme-default',
     title: 'Arkansas Monarch Conservation Partnership',
     description: 'Working together to create, enhance, and conserve monarch and pollinator habitat in The Natural State.',
+    head: [
+        ['link', {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap',
+        }]
+    ],
     themeConfig: {
         logo: '/img/logo.png',
         search: true,

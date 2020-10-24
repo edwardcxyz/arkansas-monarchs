@@ -93,11 +93,12 @@ export default {
 
 <style lang="stylus">
 .home
-  padding $navbarHeight 2rem 0
+  padding 32px 0 0
   max-width $homePageWidth
   margin 0px auto
   display block
   height 100%
+  background-color rgba(255, 255, 255, .5)
   .hero
     margin-top 24px
     text-align center
@@ -140,6 +141,7 @@ export default {
     justify-content center
     align-items center
     margin 40px 0 80px 0
+    padding 0 32px
     div
       flex-basis 40%
       display block
