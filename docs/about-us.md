@@ -2,9 +2,9 @@
 
 ![About Us](/img/about-us.jpeg)
 
-Over the past two decades, the monarch butterfly (Danaus plexippus) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
+Over the past two decades, the monarch butterfly (_Danaus plexippus_) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
 
-Over the past two decades, the monarch butterfly (Danaus plexippus) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
+Over the past two decades, the monarch butterfly (_Danaus plexippus_) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
 
 In November 2015, a planning team sponsored the Arkansas Monarch Summit. Summit participants agreed that Arkansas’s strategy for monarch butterfly conservation should focus on expanding and creating milkweed and nectar plant habitat necessary to support robust breeding and successful migration throughout the state. Moreover, participants agreed that while the monarch butterfly is the primary concern, the plight of all pollinator species needed to be included as part of the strategy and overall message. As a direct result of summit deliberations, the Arkansas Monarch Conservation Partnership (AMCP) and subsequent steering committee was formed.
 

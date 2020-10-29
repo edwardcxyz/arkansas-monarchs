@@ -35,7 +35,7 @@
   </header>
 </template>
 
-<script>
+<script> 
 import AlgoliaSearchBox from '@AlgoliaSearchBox'
 import SearchBox from '@SearchBox'
 import SidebarButton from '@theme/components/SidebarButton.vue'

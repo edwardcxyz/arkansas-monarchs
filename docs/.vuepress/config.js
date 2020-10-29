@@ -6,6 +6,10 @@ module.exports = {
         ['link', {
             rel: 'stylesheet',
             href: 'https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap',
+        }],
+        ['link', {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap',
         }]
     ],
     themeConfig: {
@@ -29,7 +33,6 @@ module.exports = {
             '/resources',
             '/bibliography',
             '/events',
-            '/register',
             '/join-us',
             '/native-plants'
         ]
