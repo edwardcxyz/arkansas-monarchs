@@ -31,9 +31,10 @@ module.exports = {
             '/habitat',
             '/nurseries',
             '/resources',
+            ['https://www.monarchnet.org/library', 'Library'],
             '/events',
             '/join-us',
-            '/native-plants'
+            '/native-plants',
         ]
     }
 }
