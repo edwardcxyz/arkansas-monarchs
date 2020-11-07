@@ -1,5 +1,7 @@
 # Conservation Plan
 
+![Arkansas Monarch Conservation Plan](img/amcp-plan.png)
+
 Following a summit of state and federal agencies, nongovernmental organizations, businesses, landowners and others in 2015, a concerted effort was made to bring greater focus to the plight of the monarch butterfly and pollinators in Arkansas. Summit attendees agreed that a statewide strategy should be developed in the form of a state monarch and pollinator conservation plan. This document is the result of that commitment.
 
 The plan is based on cooperation and collaboration and is a living document that will be periodically updated. It supports ongoing practices that benefit monarchs and pollinators and points out adjustments in other programs and practices that will improve monarch and pollinator habitat. It lays out a strategy to help agencies, organizations, businesses and individual Arkansans understand the need for action and the part they can play in recovering these important populations.
