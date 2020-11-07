@@ -31,7 +31,6 @@ module.exports = {
             '/habitat',
             '/nurseries',
             '/resources',
-            '/bibliography',
             '/events',
             '/join-us',
             '/native-plants'
