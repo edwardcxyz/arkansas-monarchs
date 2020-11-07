@@ -5,7 +5,7 @@ module.exports = {
     head: [
         ['link', {
             rel: 'stylesheet',
-            href: 'https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap',
+            href: 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;500;700&display=swap',
         }],
         ['link', {
             rel: 'stylesheet',
@@ -17,8 +17,8 @@ module.exports = {
         search: true,
         nav: [
             { text: 'About Us', link: '/about-us' },
-            { text: 'Sign the Pledge', link: '/pledge/' },
-            { text: 'Register Your Efforts', link: '/register/' },
+            { text: 'Sign the Pledge', link: '/pledge' },
+            { text: 'Register Your Efforts', link: '/register' },
         ],
         sidebar: [
             '/',
@@ -29,6 +29,8 @@ module.exports = {
             '/threats',
             '/the-plan',
             '/habitat',
+            '/native-bees',
+            '/create-habitat',
             '/resources',
             ['https://www.monarchnet.org/library', 'Library'],
             '/events',
