@@ -1,3 +1,4 @@
+
 <template>
 <div class="plants-container">
     <div
@@ -11,7 +12,7 @@
                 <img v-for="(iconSrc, idx) in ecoIcons(plant)" :key="`ico-${idx}`" :src="iconSrc">
             </div>
         </div>
-        <img :alt="`A photo of ${plant.scientificName}`" :src="plant.imageUrl">
+        <img class="plant-photo" :alt="`A photo of ${plant.scientificName}`" :src="plant.imageUrl">
         <div class="plant-info">
         <ul>
             <li class="plant-name">{{ plant.commonName }} ({{ plant.scientificName }})</li>
@@ -80,15 +81,15 @@ export default {
       plantBg(plant) {
           switch (plant.bloomPeriod) {
             case 'Spring':
-                return { backgroundColor: '#b4d66a' }
+                return { border: '2px solid #b4d66a' }
             case 'Spring to Summer':
-                return { backgroundColor: '#7bb05c' }
+                return { border: '2px solid #7bb05c' }
             case 'Summer':
-                return { backgroundColor: '#eacc44' }
+                return { border: '2px solid #eacc44' }
             case 'Summer to Fall':
-                return { backgroundColor: '#f5822c' }
+                return { border: '2px solid #f5822c' }
             case 'Fall':
-                return { backgroundColor: '#bf522a' }
+                return { border: '2px solid #bf522a' }
           }
       },
       ecoIcons(plant) {
@@ -123,9 +124,12 @@ export default {
             display flex
             flex-flow column nowrap
             justify-content flex-start
-            img
+            background-color: rgba(255, 255, 255, .8);
+            img.plant-photo
                 max-width 100%
+                height 120px
                 border-radius 8px
+                object-fit cover
             .plant-info
                 padding 12px 0
                 ul
