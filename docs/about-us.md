@@ -1,6 +1,6 @@
 # About Us
 
-![About Us](/img/about-us.jpeg)
+![About Us](/img/about-us.png)
 
 Over the past two decades, the monarch butterfly (_Danaus plexippus_) populations have declined significantly due to a variety of factors. Arkansas lies within the spring breeding area and is a critical part of the migratory flyway of the monarch.
 
