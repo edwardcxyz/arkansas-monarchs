@@ -29,7 +29,6 @@ module.exports = {
             '/threats',
             '/the-plan',
             '/habitat',
-            '/nurseries',
             '/resources',
             ['https://www.monarchnet.org/library', 'Library'],
             '/events',
