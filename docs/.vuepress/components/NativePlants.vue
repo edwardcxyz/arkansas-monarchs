@@ -125,6 +125,7 @@ export default {
             flex-flow column nowrap
             justify-content flex-start
             background-color: rgba(255, 255, 255, .8);
+            box-shadow: 1px 1px 8px #ccc;
             img.plant-photo
                 max-width 100%
                 height 120px
@@ -144,7 +145,8 @@ export default {
                             width 16px
                             margin-right 8px
                     li.plant-name
-                        font-weight: bold;
+                        font-family 'Montserrat', sans-serif
+                        font-weight: bold
                     li.plant-stat
                         /* padding-top 4px */
                         line-height 24px
