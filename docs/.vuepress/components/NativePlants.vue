@@ -76,6 +76,9 @@ export default {
         }
         return result;
     },
+    lightingKeys() {
+        return [...new Set(plantData.map(p => p.lighting))];
+    },
   },
   methods: {
       plantBg(plant) {
