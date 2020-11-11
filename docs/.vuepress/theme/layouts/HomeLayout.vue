@@ -4,8 +4,8 @@
       <img :src="$site.themeConfig.logo" alt="Arkansas Monarch Conservation Partnership Logo">
       <h1>{{ $site.title.toUpperCase() }}</h1>
     </header>
-    <nav>
-      <div class="item">ABOUT US</div>
+    <nav class="main">
+      <router-link to="/about-us"><div class="item">ABOUT US</div></router-link>
       <div class="item">ABOUT MONARCHS</div>
       <div class="item">NATIVE BEES</div>
       <div class="item">CONSERVATION PLAN</div>
