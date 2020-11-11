@@ -10,15 +10,15 @@ videoLink: https://res.cloudinary.com/edwardcxyz/video/upload/v1583600473/Arkans
 features:
 - title: The Monarch Lifecycle
   details: Learn more about the biology of these incredible butterflies.
-  image: /img/feat-01.jpg
+  image: /img/feat-01.png
   link: /lifecycle
 - title: Conservation Plan
   details: See the strategic goals and objectives that the Partnership is working toward.
   image: /img/amcp-plan.png
   link: /the-plan
 - title: Create Habitat
-  details: Large of small, areas planted with native plants have a positive impact on monarchs and pollinators.
-  image: /img/DSC_3311.jpg
+  details: Large or small, areas planted with native plants have a positive impact on monarchs and pollinators.
+  image: /img/feat-03.png
   link: /create-habitat
 footer: ©2020 Arkansas Monarch Conservation Partnership
 ---
