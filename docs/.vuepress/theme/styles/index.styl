@@ -18,8 +18,93 @@ body
   font-size 16px
   color $textColor
 
+#home-layout
+  &.theme-container
+    margin 0 auto
+    background #fff
+    width 1048px
+    min-height 100vh
+    header.main
+      padding 48px 32px 48px 48px
+      display flex
+      flex-flow row nowrap
+      h1
+        display flex
+        padding-left 32px
+        font-weight 900
+        align-items center
+        color rgb(52, 63, 42)
+        line-height 2rem
+    nav
+      display flex
+      justify-content space-evenly
+      width 100%
+      background rgb(54, 112, 83)
+      font-family 'Montserrat', sans-serif
+      color #fff
+      .item
+        padding 16px 8px
+        font-size 16px
+        font-weight 500
+        white-space nowrap
+    section.hero-slider
+      height 500px
+      background-image url(/img/hero-02.png)
+      background-size cover
+      background-position 0 -88px
+    section.site-description
+      width 700px
+      margin 64px auto
+      h2
+        font-weight unset
+        border none
+    section.features
+      width 100%
+      display flex
+      flex-flow row wrap
+      justify-content center
+      align-items flex-start
+      width 100%
+      height 800px
+      article.feature
+        display flex
+        flex-flow column nowrap
+        width 250px
+        margin 0 24px
+        min-height 400px
+        border-radius 12px
+        background-color $body-bg
+        padding 0 0 16px 0
+        min-height 430px
+        a
+          color: rgb(52, 63, 42)
+        header.feature-image
+          height 272px
+          width 100%
+          overflow hidden
+          border-top-left-radius 12px
+          border-top-right-radius 12px
+          img
+            width: 100%
+            height 100%
+            object-fit cover
+        h2
+          font-size 14px
+          border-bottom 0
+          padding-left 16px
+          padding-bottom 0
+          padding: 8px 0 0 16px
+          width: 100%
+          font-weight 700
+          text-transform uppercase
+        p
+          font-size 14px
+          font-weight 500
+          margin 0
+          padding 0 16px
+
 .nav-link
-  font-family 'Montserrat', serif
+  font-family 'Montserrat', sans-serif
 
 .page
   padding-left $sidebarWidth
@@ -114,9 +199,9 @@ strong
   font-weight 600
 
 h1, h2, h3, h4, h5, h6
-  font-family 'Montserrat', serif
-  font-weight 600
-  line-height 1.25
+  font-family 'Montserrat', sans-serif
+  // font-weight 600
+  // line-height 1.25
 
   {$contentClass}:not(.custom) > &
     margin-top (0.5rem - $navbarHeight)
