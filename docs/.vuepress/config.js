@@ -10,7 +10,7 @@ module.exports = {
         }],
         ['link', {
             rel: 'stylesheet',
-            href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap',
+            href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap',
         }]
     ],
     themeConfig: {
@@ -42,35 +42,32 @@ module.exports = {
             { 
                 text: 'About Us',
                 children: [
-                    { text: 'About Us', link: '/about-us' },
+                    { text: 'About Us', link: '/about-us', footerIndex: 0 },
                     { text: 'Join Us', link: '/join-us' },
                 ]
             },
             { 
                 text: 'About Monarchs',
                 children: [
-                    { text: 'Why Monarchs?', link: '/why-monarchs' },
+                    { text: 'Why Monarchs?', link: '/why-monarchs', footerIndex: 1 },
                     { text: 'The Monarch Lifecycle', link: '/lifecycle' },
-                    { text: 'Migration', link: '/migration' },
+                    { text: 'Migration', link: '/migration', footerIndex: 2 },
                     { text: 'Threats to the Monarch', link: '/threats' },
-                    { text: 'Habitat Needs', link: '/habitat'},
+                    { text: 'Habitat Needs', link: '/habitat', footerIndex: 3 },
                 ]
             },
             { 
                 text: 'Native Bees',
                 children: [
-                    { text: 'Native Bees', link: '/native-bees' },
+                    { text: 'Native Bees', link: '/native-bees', footerIndex: 4 },
                     { text: 'Habitat Needs', link: '/native-bees#habitat-needs' },
                 ]
             },
-            {
-                text: 'Conservation Plan',
-                link: '/the-plan',
-            },
+            { text: 'Conservation Plan', link: '/the-plan', footerIndex: 5 },
             { 
                 text: 'Get Involved',
                 children: [
-                    { text: 'Create Habitat', link: '/create-habitat' },
+                    { text: 'Create Habitat', link: '/create-habitat', footerIndex: 6 },
                     { text: 'Participate in Citizen Science', link: '/resources' },
                     { text: 'Sign the Pledge', link: '/pledge' },
                 ]
@@ -79,15 +76,12 @@ module.exports = {
                 text: 'Resources',
                 children: [
                     { text: 'Downloads and Links', link: '/resources' },
-                    { text: 'Landowner Resources', link: '/resources' },
+                    { text: 'Landowner Resources', link: '/resources', footerIndex: 7 },
                     { text: 'Scholarly Publications', link: '/resources' },
                     { text: 'Arkansas Native Plants', link: '/native-plants' },
                 ]
             },
-            {
-                text: 'Events',
-                link: '/events',
-            },
+            { text: 'Events', link: '/events', footerIndex: 8 },
         ]
     }
 }

@@ -41,18 +41,21 @@ export default {
     white-space nowrap
     font-weight 500
     &.hover
-      background-color rgb(40, 48, 32)
+      background-color rgb(52, 63, 42)
   ul
     position absolute
-    top 35px
+    top 51px
     background-color $green-medium
     color $beige
     list-style none
-    padding 16px 32px
     min-width 120%
+    padding 12px 0
+    margin 0
     li
-      padding 8px 0
+      font-size 14px
+      width 100%
       margin 0
+      padding 8px 64px 8px 32px
       a
         color $beige
         text-transform none
