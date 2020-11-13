@@ -113,13 +113,13 @@ body
       background-size cover
 
     section.articles
-      margin-bottom 8px
-      padding-top 64px
+      padding 80px 0
       article
         display flex
         flex-flow column nowrap
-        width 50%
+        width 40%
         justify-content flex-start
+        padding-left 32px
         header h2
           width 100%
           font-size 14px
@@ -133,14 +133,41 @@ body
         max-width 400px
         margin 0 32px
     footer
+      display flex
+      align-items flex-end
       background-color #fff
-      min-height 368px
+      font-family 'Montserrat', sans-serif
+      padding-bottom 64px
+      margin 8px 0
       section.links
         width 50%
+        height 210px
+        padding 64px 0 0 64px
+        display flex
+        flex-flow column wrap
+        align-items flex-start
+        justify-content flex-start
+        a
+          padding 8px 0
+          text-transform uppercase
+          font-weight 600
+          color $green-medium
       section.attributions
+        flex-flow column nowrap
+        justify-content flex-end
+        align-items flex-end
         width 50%
-        background #ccc
         height: 200px
+        font-weight 600
+        font-size 12px
+        padding-right 64px
+        div.social-icons
+          display flex
+          justify-content flex-end
+          margin-bottom 16px
+          img
+            height 32px
+            margin 8px
 
 
 .nav-link

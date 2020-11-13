@@ -42,8 +42,18 @@
     </section>
 
     <footer>
-      <section class="links"></section>
-      <section class="attributions"></section>
+      <section class="links">
+        <nav-link v-for="link in footerLinks" :item="link" />
+      </section>
+      <section class="attributions">
+        <a href="https://monarchjointventure.org/" target="_blank"><img src="/img/mjv-proud-partner.png"></NavLink></a>
+        <div class="social-icons">
+          <img src="/img/instagram.png" alt="Instagram">
+          <img src="/img/facebook.png" alt="Facebook">
+          <img src="/img/youtube.png" alt="YouTube">
+        </div>
+        <div>&copy; 2020 Arkansas Monarch Conservation Partnership</div>
+      </section>
     </footer>
     
   </div>
@@ -55,6 +65,19 @@ import NavLink from '@theme/components/NavLink';
 
   export default {
     components: { NavLink, NavHorizontal },
+    computed: {
+      footerLinks() {
+        const parentLinks = this.$site.themeConfig.links.filter((link) => link.footerIndex);
+
+        const childrenLinks = this.$site.themeConfig.links
+          .filter(link => link.children)
+          .map(link => link.children).flat()
+          .filter(link => link.footerIndex);
+
+        return [...parentLinks, ...childrenLinks]
+          .sort((a, b) => a.footerIndex - b.footerIndex);
+      }
+    },
     created() {
       console.log(this.$site);
       console.log(this.$page);
