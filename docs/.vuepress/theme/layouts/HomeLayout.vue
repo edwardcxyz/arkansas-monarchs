@@ -4,15 +4,17 @@
       <img :src="$site.themeConfig.logo" alt="Arkansas Monarch Conservation Partnership Logo">
       <h1>{{ $site.title.toUpperCase() }}</h1>
     </header>
-    <nav class="main">
-      <router-link to="/about-us"><div class="item">ABOUT US</div></router-link>
+    <!-- <nav class="main">
+      <nav-link :item="{ text: 'About Us', link: '/about-us' }" />
       <div class="item">ABOUT MONARCHS</div>
       <div class="item">NATIVE BEES</div>
       <div class="item">CONSERVATION PLAN</div>
       <div class="item">EVENTS</div>
       <div class="item">GET INVOLVED</div>
       <div class="item">RESOURCES</div>
-    </nav>
+    </nav> -->
+
+    <nav-horizontal />
     
     <section class="hero-slider" />
     
@@ -36,7 +38,11 @@
 </template>
 
 <script>
+import NavHorizontal from '@theme/components/NavHorizontal';
+import NavLink from '@theme/components/NavLink';
+
   export default {
+    components: { NavLink, NavHorizontal },
     created() {
       console.log(this.$site);
       console.log(this.$page);
