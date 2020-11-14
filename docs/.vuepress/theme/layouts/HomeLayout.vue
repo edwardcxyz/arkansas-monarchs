@@ -48,9 +48,9 @@
       <section class="attributions">
         <a href="https://monarchjointventure.org/" target="_blank"><img src="/img/mjv-proud-partner.png"></NavLink></a>
         <div class="social-icons">
-          <img src="/img/instagram.png" alt="Instagram">
-          <img src="/img/facebook.png" alt="Facebook">
-          <img src="/img/youtube.png" alt="YouTube">
+          <a href="https://www.instagram.com/arkansasmonarchs/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/ArkansasMonarchs/" target="_blank"><img src="/img/facebook.png" alt="Facebook"></a>
+          <a href="https://www.youtube.com/channel/UCXm9CFbm8-HbRUvbe6jsjiQ" target="_blank"><img src="/img/youtube.png" alt="YouTube"></a>
         </div>
         <div>&copy; 2020 Arkansas Monarch Conservation Partnership</div>
       </section>
