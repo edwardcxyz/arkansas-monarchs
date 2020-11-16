@@ -1,3 +1,6 @@
+---
+layout: PrimaryLayout
+---
 # Arkansas Native Plants
 
 <select v-model="lighting">

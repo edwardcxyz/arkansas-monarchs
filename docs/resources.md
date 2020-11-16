@@ -1,3 +1,6 @@
+---
+layout: PrimaryLayout
+---
 # Resources
 
 ## Gardeners

@@ -1,3 +1,6 @@
+---
+layout: PrimaryLayout
+---
 # Habitat Needs
 
 Because the success of the monarch relies on the success of each generation, the abundance of quality habitat throughout their migratory flyway cannot be understated. The multi-generational migration phenomenon requires the right plants at the right time for each lifecycle stage. Milkweed is necessary because it is the host plant for monarch caterpillars. Female monarchs lay eggs on milkweed because it is the only plant that caterpillars will consume before pupating and emerging as butterflies.

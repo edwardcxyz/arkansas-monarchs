@@ -1,3 +1,7 @@
+---
+layout: PrimaryLayout
+---
+
 # The Monarch Lifecycle
 Arkansas lies in the migratory flyway of the eastern population of the monarch butterly (Danaus plexippus).  The Natural State is part of the spring breeding grounds for monarchs as they make their joruney north from their overwintering grounds in central Mexico.
 

@@ -1,5 +1,5 @@
 ---
-layout: HomeLayout
+layout: PrimaryLayout
 home: true
 search: false
 # heroText: Arkansas Monarch Conservation Partnership

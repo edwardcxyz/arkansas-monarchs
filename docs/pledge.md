@@ -1,3 +1,6 @@
+---
+layout: PrimaryLayout
+---
 # Take the Pledge!
 
 <div class="form-container">

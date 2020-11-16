@@ -1,6 +1,8 @@
+---
+layout: PrimaryLayout
+heroImage: img/events-feature.jpg
+---
 # Events
-
-![Events](img/events-feature.jpg)
 
 ::: danger This page is under construction.
 We apologize for any inconvenience. Check back later for upcoming monarch and pollinator-related events. Check our Facebook page for recent events postings.

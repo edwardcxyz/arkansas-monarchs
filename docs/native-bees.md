@@ -1,10 +1,12 @@
+---
+layout: PrimaryLayout
+heroImage: /img/native-bees.png
+---
 # Native Bees
 
 There are approximately 4,000 species of native bees in North America. These native bees have special habitat requirements: foraging habitat, nesting habitat, and overwintering habitat. These habitat needs can be met by the same high-quality habitat that benefits monarch butterflies and other wildlife species.
 
 Native bees maintain 80% of our native plant species and improve yields of 75% of crops. They provide valuable ecosystem services and provide $14.4 billion worth of pollination annually in North America alone.
-
-![Native Bees](/img/native-bees.png)
 
 ## Solitary Vs. Social Bees
 Of the 4,000 species of native bees in North America, more than 90% of them are solitary. This means that each female constructs and provisions her own nest without help from other members of her species. Bumble bees are the best-known native social bees, though there are more than 200 species of sweat bees that sometimes nest socially.
