@@ -27,6 +27,8 @@ nav.horizontal-nav
   background-color $green-light
   font-family 'Montserrat', sans-serif
   font-size 16px
+  position sticky
+  top 0
   a
     color #fff
     text-transform uppercase
