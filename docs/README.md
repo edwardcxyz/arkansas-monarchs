@@ -20,5 +20,12 @@ features:
   details: Large or small, areas planted with native plants have a positive impact on monarchs and pollinators.
   image: /img/feat-03.jpg
   link: /create-habitat
+stats:
+- title: Certified Habitats in Arkansas
+  value: 1713
+- title: Arkansans Signed the Pledge
+  value: 46
+- title: AR Farmers & Ranchers Planting Pollinator Habitat
+  value: 195
 footer: ©2020 Arkansas Monarch Conservation Partnership
 ---

@@ -1,5 +1,6 @@
 ---
 layout: PrimaryLayout
+heroImage: /img/hero-02.jpg
 ---
 # Habitat Needs
 

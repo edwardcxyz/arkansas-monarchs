@@ -1,6 +1,6 @@
 ---
 layout: PrimaryLayout
-heroImage: /img/native-bees.png
+heroImage: /img/native-bees.jpg
 ---
 # Native Bees
 
