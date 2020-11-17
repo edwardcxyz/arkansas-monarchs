@@ -6,16 +6,18 @@
     </header>
     
     <nav-horizontal />
-    <hero-image />
+    <transition name="slide">
+      <hero-image />
+    </transition>
 
     <home v-if="$page.frontmatter.home" />
     <Content v-else />
 
     <footer>
-      <section class="links">
+      <section class="main links">
         <nav-link v-for="link in footerLinks" :item="link" />
       </section>
-      <section class="attributions">
+      <section class="main attributions">
         <a href="https://monarchjointventure.org/" target="_blank"><img src="/img/mjv-proud-partner.png"></NavLink></a>
         <div class="social-icons">
           <a href="https://www.instagram.com/arkansasmonarchs/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
@@ -55,3 +57,16 @@ import HeroImage from '@theme/components/HeroImage';
     }
   }
 </script>
+
+<style>
+.slide-enter-active {
+  transition: all .3s ease;
+}
+.slide-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-enter, .slide-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+</style>

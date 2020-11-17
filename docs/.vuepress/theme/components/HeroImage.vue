@@ -15,6 +15,7 @@ export default {
 <style lang="stylus">
 .hero-image
   overflow hidden
+  background-color #fff
   img
     width 100%
     height 500px
