@@ -4,9 +4,9 @@ module.exports = {
     es2021: true,
   },
   extends: [
-//    'plugin:vue/essential',
+    'plugin:vue/essential',
     'airbnb-base',
-//    'plugin:prettier/recommended',
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     ecmaVersion: 12,

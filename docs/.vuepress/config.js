@@ -2,38 +2,58 @@ module.exports = {
   // host: '10.0.0.45',
   extend: '@vuepress/theme-default',
   title: 'Arkansas Monarch Conservation Partnership',
-  description: 'Working together to <b>create, enhance, and conserve</b> monarch and pollinator habitat in The Natural State.',
+  description:
+    'Working together to <b>create, enhance, and conserve</b> monarch and pollinator habitat in The Natural State.',
   head: [
-    ['link', {
-      rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700;800&family=Montserrat:wght@300;400;500;700&display=swap',
-    }],
-    ['link', {
-      rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap',
-    }],
-    ['link', {
-      rel: 'apple-touch-icon',
-      sizes: '180x180',
-      href: '/apple-touch-icon.png',
-    }],
-    ['link', {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      href: '/favicon-32x32.png',
-    }],
-    ['link', {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      href: '/favicon-16x16.png',
-    }],
-    ['link', {
-      rel: 'manifest',
-      href: '/site.manifest',
-    }],
-
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700;800&family=Montserrat:wght@300;400;500;700&display=swap',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'manifest',
+        href: '/site.manifest',
+      },
+    ],
   ],
   themeConfig: {
     logo: '/img/logo.png',

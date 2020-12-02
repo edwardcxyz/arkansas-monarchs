@@ -1,15 +1,18 @@
 <template>
   <div class="home-content">
-
     <section class="main site-description">
       <h2 v-html="$site.description" />
     </section>
-    
+
     <section class="main features">
-      <article v-for="feature in $page.frontmatter.features" class="feature">
+      <article
+        v-for="feature in $page.frontmatter.features"
+        :key="feature.title"
+        class="feature"
+      >
         <router-link :to="feature.link">
           <header class="feature-image">
-            <img :src="feature.image" :alt="feature.title">
+            <img :src="feature.image" :alt="feature.title" />
           </header>
           <h2>{{ feature.title }}</h2>
           <p>{{ feature.details }}</p>
@@ -18,7 +21,11 @@
     </section>
 
     <section class="stats">
-      <div class="stat" v-for="stat in $page.frontmatter.stats">
+      <div
+        class="stat"
+        v-for="stat in $page.frontmatter.stats"
+        :key="`stat-${stat.title}`"
+      >
         <h2 class="title">{{ stat.title }}</h2>
         <p class="value">{{ stat.value }}</p>
       </div>
@@ -29,10 +36,21 @@
         <header>
           <h2>Wings of Hope</h2>
         </header>
-        <p>The “Wings of Hope” video was generously funded by the U.S. Fish and Wildlife Service and U.S. Fish and Wildlife Service Partners for Fish and Wildlife with additional contributions from the Arkansas Natural Heritage Commission, Arkansas Department of Heritage, Arkansas Game and Fish Commission, The Nature Conservancy, Pulaski Conservation District, Arkansas Department of Transportation and the Botanical Garden of the Ozarks.</p>
+        <p>
+          The “Wings of Hope” video was generously funded by the U.S. Fish and
+          Wildlife Service and U.S. Fish and Wildlife Service Partners for Fish
+          and Wildlife with additional contributions from the Arkansas Natural
+          Heritage Commission, Arkansas Department of Heritage, Arkansas Game
+          and Fish Commission, The Nature Conservancy, Pulaski Conservation
+          District, Arkansas Department of Transportation and the Botanical
+          Garden of the Ozarks.
+        </p>
       </article>
-      <video controls poster="https://res.cloudinary.com/edwardcxyz/image/upload/v1581204642/ArkansasMonarchs/ar-mon-logo.png">
-        <source :src="this.$page.frontmatter.videoLink" type="video/mp4">
+      <video
+        controls
+        poster="https://res.cloudinary.com/edwardcxyz/image/upload/v1581204642/ArkansasMonarchs/ar-mon-logo.png"
+      >
+        <source :src="this.$page.frontmatter.videoLink" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </section>
