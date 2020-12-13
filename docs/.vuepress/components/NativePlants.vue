@@ -38,10 +38,10 @@
 </template>
 
 <script>
-import plantData from "../../ar-native-plants";
+import plantData from '../../ar-native-plants';
 
 export default {
-  name: "NativePlants",
+  name: 'NativePlants',
   props: {
     season: String,
     lighting: String,
@@ -67,30 +67,30 @@ export default {
       return result;
     },
     plantsBySeason() {
-      const spring = this.plants.filter((p) => p.bloomPeriod === "Spring");
+      const spring = this.plants.filter((p) => p.bloomPeriod === 'Spring');
       const springSummer = this.plants.filter(
-        (p) => p.bloomPeriod === "Spring to Summer"
+        (p) => p.bloomPeriod === 'Spring to Summer'
       );
-      const summer = this.plants.filter((p) => p.bloomPeriod === "Summer");
+      const summer = this.plants.filter((p) => p.bloomPeriod === 'Summer');
       const summerFall = this.plants.filter(
-        (p) => p.bloomPeriod === "Summer to Fall"
+        (p) => p.bloomPeriod === 'Summer to Fall'
       );
-      const fall = this.plants.filter((p) => p.bloomPeriod === "Fall");
+      const fall = this.plants.filter((p) => p.bloomPeriod === 'Fall');
       let result;
       switch (this.season) {
-        case "Spring":
+        case 'Spring':
           result = spring;
           break;
-        case "Spring to Summer":
+        case 'Spring to Summer':
           result = springSummer;
           break;
-        case "Summer":
+        case 'Summer':
           result = summer;
           break;
-        case "Summer to Fall":
+        case 'Summer to Fall':
           result = summerFall;
           break;
-        case "Fall":
+        case 'Fall':
           result = fall;
           break;
         default:
@@ -111,31 +111,31 @@ export default {
   methods: {
     plantBg(plant) {
       switch (plant.bloomPeriod) {
-        case "Spring":
-          return { border: "2px solid #b4d66a" };
-        case "Spring to Summer":
-          return { border: "2px solid #7bb05c" };
-        case "Summer":
-          return { border: "2px solid #eacc44" };
-        case "Summer to Fall":
-          return { border: "2px solid #f5822c" };
-        case "Fall":
-          return { border: "2px solid #bf522a" };
+        case 'Spring':
+          return { border: '2px solid #b4d66a' };
+        case 'Spring to Summer':
+          return { border: '2px solid #7bb05c' };
+        case 'Summer':
+          return { border: '2px solid #eacc44' };
+        case 'Summer to Fall':
+          return { border: '2px solid #f5822c' };
+        case 'Fall':
+          return { border: '2px solid #bf522a' };
         default:
           return null;
       }
     },
     ecoIcons(plant) {
-      return plant.benefits.split(", ").map((b) => {
+      return plant.benefits.split(', ').map((b) => {
         switch (b) {
-          case "Bees":
-            return "/img/bee.svg";
-          case "Butterflies":
-            return "/img/butterfly.svg";
-          case "Moths":
-            return "/img/moth.svg";
-          case "Hummingbirds":
-            return "/img/hummingbird.svg";
+          case 'Bees':
+            return '/img/bee.svg';
+          case 'Butterflies':
+            return '/img/butterfly.svg';
+          case 'Moths':
+            return '/img/moth.svg';
+          case 'Hummingbirds':
+            return '/img/hummingbird.svg';
           default:
             return null;
         }
@@ -144,7 +144,7 @@ export default {
   },
   created() {
     const uniqueLighting = new Set([...this.plants.map((p) => p.lighting)]);
-    console.log("lighting", uniqueLighting);
+    console.log('lighting', uniqueLighting);
   },
 };
 </script>
