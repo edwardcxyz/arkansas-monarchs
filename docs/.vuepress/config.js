@@ -1,5 +1,4 @@
 module.exports = {
-  // host: '10.0.0.45',
   extend: '@vuepress/theme-default',
   title: 'Arkansas Monarch Conservation Partnership',
   description:
