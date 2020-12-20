@@ -9,11 +9,7 @@
         <img :src="partner.image" :alt="partner.name" />
       </div>
       <div class="partner-info">
-        <div class="description">
-          <p>{{ partner.about }}</p>
-          <p>{{ partner.about2 }}</p>
-          <div v-if="partner.about2" class="see-more">See more...</div>
-        </div>
+        <PartnerBlurb :p1="partner.about" :p2="partner.about2 || null" />
         <div class="social">
           <a v-if="partner.facebook" :href="partner.facebook">
             <img src="/img/facebook.png" alt="facebook logo icon" />
@@ -52,6 +48,7 @@ export default {
     padding 24px
     .partner-image
       width 40%
+      height 100%
       display flex
       img
         display block
@@ -60,19 +57,6 @@ export default {
         height 200px
     .partner-info
       width 50%
-      .description
-        overflow hidden
-        position relative
-        .see-more
-          font-family Montserrat, sans-serif
-          background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
-          width 100%
-          position absolute
-          bottom 0px
-          right 0
-          text-align right
-          padding-top 24px
-          color #999
       .social
         width 100%
         margin-top 32px
