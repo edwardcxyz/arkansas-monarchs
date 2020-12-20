@@ -114,7 +114,7 @@ partners:
   image: /img/logo/central-ar-water.png
 
 - name: Electric Cooperatives of Arkansas
-  about: The Electric Cooperatives of Arkansas comprise 17 electric distribution cooperatives; Arkansas Electric Cooperatives, Inc. (AECI), a Little Rock-based cooperative that provides services to the distribution cooperatives; and Arkansas Electric Cooperative Corp. (AECC), a generation and transmission cooperative. The distribution cooperatives provide electricity to approximately 500,000 homes, farms and businesses in Arkansas and surrounding states.
+  about: The Electric Cooperatives of Arkansas comprise of 17 electric distribution cooperatives; Arkansas Electric Cooperatives, Inc. (AECI), a Little Rock-based cooperative that provides services to the distribution cooperatives; and Arkansas Electric Cooperative Corp. (AECC), a generation and transmission cooperative. The distribution cooperatives provide electricity to approximately 500,000 homes, farms and businesses in Arkansas and surrounding states.
   home: https://aecc.com/
   facebook: https://www.facebook.com/ElectricCooperativesofArk/
   instagram: https://www.instagram.com/electriccooperativesofark/
@@ -130,7 +130,8 @@ partners:
   image: /img/logo/enable-midstream.jpg
 
 - name: Little Rock Parks and Recreation
-  about: No matter where you live in Little Rock you're only minutes from the wide open spaces of a City Park – and some of the most fun things to do in Little Rock! Whether you live in downtown, midtown, north, south, east, west or southwest, you’re not far from the best free family fun in Little Rock. Our city is nestled among a profusion of open green spaces and natural areas set aside for recreational, educational, ecological and aesthetic benefits for the people who live here to enjoy at their leisure. Little Rock's parks system is not only a source of pride for the city, but it has received national recognition for excellence! Little Rock Parks & Recreation became the 30th agency in the United States to receive accreditation of Parks and Recreation Agencies. Come find family fun in Little Rock at one of our many parks.
+  about: No matter where you live in Little Rock you're only minutes from the wide open spaces of a City Park – and some of the most fun things to do in Little Rock! Whether you live in downtown, midtown, north, south, east, west or southwest, you’re not far from the best free family fun in Little Rock. Our city is nestled among a profusion of open green spaces and natural areas set aside for recreational, educational, ecological and aesthetic benefits for the people who live here to enjoy at their leisure.
+  about2: Little Rock's parks system is not only a source of pride for the city, but it has received national recognition for excellence! Little Rock Parks & Recreation became the 30th agency in the United States to receive accreditation of Parks and Recreation Agencies. Come find family fun in Little Rock at one of our many parks.
   home: https://www.littlerock.gov/for-residents/parks-and-recreation/
   facebook: 
   instagram: 
