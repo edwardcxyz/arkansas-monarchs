@@ -1,11 +1,11 @@
 <template>
   <div class="partner-blurb">
-    <div class="description">
+    <div class="description" :class="{ truncated: doTruncate }">
       <p>{{ p1 }}</p>
-      <p v-if="p2 && !truncate">{{ p2 }}</p>
-      <div v-if="p2 && truncate" class="see-more" @click="truncate = !truncate">
-        See More...
-      </div>
+      <p v-if="p2">{{ p2 }}</p>
+    </div>
+    <div v-if="doTruncate" class="see-more" @click="untruncate = !untruncate">
+      See More...
     </div>
   </div>
 </template>
@@ -19,25 +19,35 @@ export default {
   },
   data() {
     return {
-      truncate: true,
+      untruncate: false,
     };
   },
+  computed: {
+    doTruncate() {
+      const combined = this.p1 + this.p2;
+      return (combined.length >= 500) && !this.untruncate;
+    }
+  }
 };
 </script>
 
 <style scoped lang="stylus">
+.partner-blurb
+  position relative
 .description
   overflow hidden
   position relative
-  .see-more
-    font-family Montserrat, sans-serif
-    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
-    width 100%
-    position absolute
-    bottom 0px
-    right 0
-    text-align right
-    padding-top 24px
-    color #999
-    cursor pointer
+  &.truncated
+    max-height 300px
+.see-more
+  font-family Montserrat, sans-serif
+  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1));
+  width 100%
+  position absolute
+  bottom -24px
+  right 0
+  text-align right
+  padding-top 24px
+  color #999
+  cursor pointer
 </style>
