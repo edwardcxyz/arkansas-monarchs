@@ -29,6 +29,7 @@ nav.horizontal-nav
   font-size 16px
   position sticky
   top 0
+  z-index 9999
   a
     color #fff
     text-transform uppercase
