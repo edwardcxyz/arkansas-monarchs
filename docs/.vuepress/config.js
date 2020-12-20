@@ -86,6 +86,7 @@ module.exports = {
         children: [
           { text: 'About Us', link: '/about-us', footerIndex: 1 },
           { text: 'Join Us', link: '/join-us' },
+          { text: 'Partners', link: '/partners' },
         ],
       },
       {
