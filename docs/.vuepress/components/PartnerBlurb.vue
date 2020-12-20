@@ -39,4 +39,5 @@ export default {
     text-align right
     padding-top 24px
     color #999
+    cursor pointer
 </style>
