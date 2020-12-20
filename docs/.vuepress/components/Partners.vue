@@ -12,13 +12,13 @@
         <p>{{ partner.about }}</p>
         <p v-if="partner.about2">{{ partner.about2 }}</p>
         <div class="social-icons">
-          <a :href="partner.facebook">
+          <a v-if="partner.facebook" :href="partner.facebook">
             <img src="/img/facebook.png" alt="facebook icon" />
           </a>
-          <a :href="partner.instagram">
+          <a v-if="partner.instagram" :href="partner.instagram">
             <img src="/img/instagram.png" alt="instagram icon" />
           </a>
-          <a :href="partner.twitter">
+          <a v-if="partner.twitter" :href="partner.twitter">
             <img src="/img/twitter.png" alt="twitter icon" />
           </a>
         </div>
