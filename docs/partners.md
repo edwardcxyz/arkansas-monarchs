@@ -52,7 +52,7 @@ partners:
 - name: Arkansas Natural Heritage Commission
   about: The Arkansas Natural Heritage Commission (ANHC) focuses on science-based conservation to protect our state’s biological diversity. As the central repository for data on rare plants, animals, and natural communities in Arkansas, we work to provide up-to-date information for sound and timely conservation decisions. Our System of Natural Areas provides long-term protection to some of the state’s most ecologically significant lands. Through outreach and education programs, we strive to deepen the ecological literacy of Arkansans. These efforts, combined with an array of conservation partnerships, are all aimed at ensuring that Arkansas’s biological diversity and natural heritage are not lost.
   home: http://www.naturalheritage.com/
-  facebook: facebook.com/arnaturalheritage/
+  facebook: https://facebook.com/arnaturalheritage/
   instagram: instagram.com/ar_naturalheritage/
   twitter: 
   image: /img/logo/anhc.png
