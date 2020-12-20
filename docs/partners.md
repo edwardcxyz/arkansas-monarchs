@@ -152,7 +152,7 @@ partners:
   facebook: 
   instagram: 
   twitter: 
-  image: /img/logo/nation-center-for-appropriate-technology.png
+  image: /img/logo/national-center-for-appropriate-technology.png
 
 - name: National Park Service - Pea Ridge National Military Park
   about: 

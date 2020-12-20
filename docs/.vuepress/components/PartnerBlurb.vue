@@ -1,8 +1,8 @@
 <template>
   <div class="partner-blurb">
     <div class="description" :class="{ truncated: doTruncate }">
-      <p>{{ p1 }}</p>
-      <p v-if="p2">{{ p2 }}</p>
+      <p>{{ partner.about }}</p>
+      <p v-if="partner.about2">{{ partner.about2 }}</p>
     </div>
     <div v-if="doTruncate" class="see-more" @click="untruncate = !untruncate">
       See More...
@@ -14,8 +14,7 @@
 export default {
   name: 'PartnerBlurb',
   props: {
-    p1: String,
-    p2: String,
+    partner: Object,
   },
   data() {
     return {
@@ -24,10 +23,10 @@ export default {
   },
   computed: {
     doTruncate() {
-      const combined = this.p1 + this.p2;
-      return (combined.length >= 500) && !this.untruncate;
-    }
-  }
+      const combined = this.partner.about + this.partner.about2;
+      return combined.length >= 500 && !this.untruncate;
+    },
+  },
 };
 </script>
 
