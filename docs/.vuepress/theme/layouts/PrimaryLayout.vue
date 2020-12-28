@@ -52,8 +52,8 @@ import HeroImage from '@theme/components/HeroImage';
       }
     },
     created() {
-      console.log(this.$site);
-      console.log(this.$page);
+      // console.log(this.$site);
+      // console.log(this.$page);
     }
   }
 </script>
