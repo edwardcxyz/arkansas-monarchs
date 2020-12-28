@@ -120,7 +120,6 @@ module.exports = {
         children: [
           { text: 'Downloads and Links', link: '/resources' },
           { text: 'Landowner Resources', link: '/resources', footerIndex: 8 },
-          { text: 'Scholarly Publications', link: '/resources' },
           { text: 'Arkansas Native Plants', link: '/native-plants' },
           { text: 'Webinars', link: '/webinars' },
         ],
