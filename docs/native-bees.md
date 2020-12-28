@@ -59,5 +59,5 @@ Different bee species require different materials or conditions for nesting. Sin
 Providing bare ground is important if you want to provide nesting sites for these bees. This can be accomplished by not laying down a weed barrier or mulch in a pollinator garden or managing larger acreages of pollinator habitat with prescribed fire in accordance to guidance from your local biologist.
 
 ## Overwintering Habitat
-When managing pollinator habitat it is important not disturb more than ⅓ to ½ of the area at one time to provide refugia for pollinators. For overwintering habitat, it’s recommended that dead vegetation is left standing instead of being mowed or cut down. For larger acreages, consult with your local biologist for proper management.
+When managing pollinator habitat it is important not disturb more than ⅓ to ½ of the area at one time to provide refugia for pollinators. For overwintering habitat, it’s recommended that dead vegetation is left standing instead of being mowed or cut down. For larger acreages, [consult with your local biologist](/resources) for proper management.
 
