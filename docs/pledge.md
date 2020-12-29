@@ -1,5 +1,6 @@
 ---
 layout: PrimaryLayout
+heroImage: /img/hero-04.jpg
 ---
 # Take the Pledge!
 
