@@ -1,6 +1,6 @@
 ---
 layout: PrimaryLayout
-heroImage: img/amcp-plan.png
+heroImage: img/hero-02.jpg
 ---
 # Conservation Plan
 

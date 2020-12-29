@@ -25,6 +25,7 @@ layout: PrimaryLayout
 * [Reducing Ricks to Pollinators from Insect and Plant Pest Control](https://www.fws.gov/pollinators/pdfs/FWS_IPM_Farmland_Outreach_Final_April_26_2018_web_508.pdf)
 
 ## Guides & Additional Information
+* [MonarchNet Library](https://www.monarchnet.org/library)
 * [Pollinator.org](https://www.pollinator.org/)
 * [Xerces - Establishing Pollinator Meadows from Seed](http://www.xerces.org/wp-content/uploads/2013/12/EstablishingPollinatorMeadows.pdf)
 
