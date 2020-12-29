@@ -1,5 +1,6 @@
 ---
 layout: PrimaryLayout
+heroImage: img/hero-05.jpg
 ---
 # Resources
 
