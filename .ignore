@@ -1,3 +1,5 @@
-docs/bibliography.md
 node_modules
+package.json
+package.lock
 dist
+*.DS_Store*

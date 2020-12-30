@@ -103,3 +103,6 @@ recommended that dead vegetation is left standing instead of being mowed or cut 
 For larger acreages, [consult with your local biologist](/resources) for proper 
 management.
 
+<custom-button to="habitat">Create Habitat</custom-button>
+<custom-button to="resources">Landowner Resources</custom-button>
+
