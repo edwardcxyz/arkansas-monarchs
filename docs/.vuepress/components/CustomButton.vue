@@ -20,16 +20,16 @@ export default {
   display inline-block
   a
     display flex
-    padding 12px 16px
-    background-color $green-bright
-    border-radius 4px
+    padding 12px 32px
+    background-color $purple
+    border-radius 26px
     text-decoration none
     font-family Montserrat, sans-serif
     font-weight 500
     color: #fff
-    margin-top 40px
-    transition all 0.2s
+    transition background-color 0.8s ease
+    margin 4px 4px
     &:hover
-      background-color darken($green-bright, 15%)
+      background-color $green-medium
       text-decoration none !important
 </style>

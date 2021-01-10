@@ -30,6 +30,7 @@ article.feature
   background-color $body-bg
   padding 0 0 16px 0
   min-height 430px
+  box-shadow 8px 8px 24px 1px $beige
   a
     color: rgb(52, 63, 42)
   header.feature-image
