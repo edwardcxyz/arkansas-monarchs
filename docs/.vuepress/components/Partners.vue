@@ -8,18 +8,18 @@
       <article>
         <div class="partner-content">
           <div class="partner-image">
-            <a :href="partner.home"><img :src="partner.image" :alt="partner.name" /></a>
+            <a :href="partner.home" target="_blank"><img :src="partner.image" :alt="partner.name" /></a>
           </div>
           <div class="partner-info">
             <PartnerBlurb :partner="partner" />
             <div class="social">
-              <a v-if="partner.facebook" :href="partner.facebook">
+              <a v-if="partner.facebook" :href="partner.facebook" target="_blank">
                 <img src="/img/facebook.png" alt="facebook logo icon" />
               </a>
-              <a v-if="partner.instagram" :href="partner.instagram">
+              <a v-if="partner.instagram" :href="partner.instagram" target="_blank">
                 <img src="/img/instagram.png" alt="instagram logo icon" />
               </a>
-              <a v-if="partner.twitter" :href="partner.twitter">
+              <a v-if="partner.twitter" :href="partner.twitter" target="_blank">
                 <img src="/img/twitter.png" alt="twitter logo icon" />
               </a>
             </div>
