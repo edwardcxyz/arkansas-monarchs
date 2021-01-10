@@ -6,12 +6,12 @@
       :key="partner.name"
     >
       <article>
-        <h3>{{ partner.name }}</h3>
         <div class="partner-content">
           <div class="partner-image">
-            <img :src="partner.image" :alt="partner.name" />
+            <a :href="partner.home"><img :src="partner.image" :alt="partner.name" /></a>
           </div>
           <div class="partner-info">
+            <a :href="partner.home"><h3>{{ partner.name }}</h3></a>
             <PartnerBlurb :partner="partner" />
             <div class="social">
               <a v-if="partner.facebook" :href="partner.facebook">
@@ -53,14 +53,20 @@ export default {
       display flex
       flex-flow column nowrap
       height 100%
-      h3
-        text-align center
+      a
+        color $green-dark
+        &:hover
+          color $green-light
+        h3
+          text-align center
+          font-size 14pt
       .partner-content
         display flex
         flex-flow row nowrap
+        align-items center
         width 100%
         .partner-image
-          width 40%
+          width 30%
           height 100%
           display flex
           img
@@ -69,7 +75,7 @@ export default {
             width 90%
             height 200px
         .partner-info
-          width 50%
+          width 60%
           .social
             width 100%
             margin-top 32px

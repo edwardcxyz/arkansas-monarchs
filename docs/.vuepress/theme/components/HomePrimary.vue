@@ -5,19 +5,11 @@
     </section>
 
     <section class="main features">
-      <article
+      <card
         v-for="feature in $page.frontmatter.features"
         :key="feature.title"
-        class="feature"
-      >
-        <router-link :to="feature.link">
-          <header class="feature-image">
-            <img :src="feature.image" :alt="feature.title" />
-          </header>
-          <h2>{{ feature.title }}</h2>
-          <p>{{ feature.details }}</p>
-        </router-link>
-      </article>
+        :feature="feature"
+      />
     </section>
 
     <section class="stats">
