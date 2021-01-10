@@ -11,7 +11,6 @@
             <a :href="partner.home"><img :src="partner.image" :alt="partner.name" /></a>
           </div>
           <div class="partner-info">
-            <a :href="partner.home"><h3>{{ partner.name }}</h3></a>
             <PartnerBlurb :partner="partner" />
             <div class="social">
               <a v-if="partner.facebook" :href="partner.facebook">

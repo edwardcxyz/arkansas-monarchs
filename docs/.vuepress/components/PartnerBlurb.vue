@@ -1,5 +1,6 @@
 <template>
   <div class="partner-blurb">
+    <a :href="partner.home"><h3>{{ partner.name }}</h3></a>
     <div class="description" :class="{ truncated: doTruncate }">
       <p>{{ partner.about }}</p>
       <p v-if="partner.about2">{{ partner.about2 }}</p>
@@ -34,6 +35,8 @@ export default {
 .partner-blurb
   position relative
 .description
+  padding-left 32px
+  border-left 1px solid lighten($green-dark, 70%)
   overflow hidden
   position relative
   &.truncated
