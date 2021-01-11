@@ -7,31 +7,35 @@
     
     <nav-horizontal />
     <hero-image small />
-    <div v-if="$page.frontmatter.extraLinks" class="extra-links">
-      <custom-button
-        v-for="link in $page.frontmatter.extraLinks"
-        :key="link.name"
-        :to="link.url"
-      >{{ link.name }}</custom-button>
+
+    <div class="lifted-container">
+      <div v-if="$page.frontmatter.extraLinks" class="extra-links">
+        <custom-button
+          v-for="link in $page.frontmatter.extraLinks"
+          :key="link.name"
+          :to="link.url"
+        >{{ link.name }}</custom-button>
+      </div>
+      <div v-else class="spaceryay"></div>
+
+      <home v-if="$page.frontmatter.home" />
+      <Content v-else />
+
+      <footer>
+        <section class="main links">
+          <nav-link v-for="link in footerLinks" :item="link" />
+        </section>
+        <section class="main attributions">
+          <a href="https://monarchjointventure.org/" target="_blank"><img src="/img/mjv-proud-partner.png"></NavLink></a>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/arkansasmonarchs/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/ArkansasMonarchs/" target="_blank"><img src="/img/facebook.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/channel/UCXm9CFbm8-HbRUvbe6jsjiQ" target="_blank"><img src="/img/youtube.png" alt="YouTube"></a>
+          </div>
+          <div>&copy; 2020 Arkansas Monarch Conservation Partnership</div>
+        </section>
+      </footer>
     </div>
-
-    <home v-if="$page.frontmatter.home" />
-    <Content v-else />
-
-    <footer>
-      <section class="main links">
-        <nav-link v-for="link in footerLinks" :item="link" />
-      </section>
-      <section class="main attributions">
-        <a href="https://monarchjointventure.org/" target="_blank"><img src="/img/mjv-proud-partner.png"></NavLink></a>
-        <div class="social-icons">
-          <a href="https://www.instagram.com/arkansasmonarchs/" target="_blank"><img src="/img/instagram.png" alt="Instagram"></a>
-          <a href="https://www.facebook.com/ArkansasMonarchs/" target="_blank"><img src="/img/facebook.png" alt="Facebook"></a>
-          <a href="https://www.youtube.com/channel/UCXm9CFbm8-HbRUvbe6jsjiQ" target="_blank"><img src="/img/youtube.png" alt="YouTube"></a>
-        </div>
-        <div>&copy; 2020 Arkansas Monarch Conservation Partnership</div>
-      </section>
-    </footer>
   </div>
 </template>
 
@@ -64,11 +68,14 @@ import HeroImage from '@theme/components/HeroImage';
 </script>
 
 <style lang="stylus" scoped>
+.lifted-container
+  position relative
+  top -52px
 .extra-links
   display flex
-  background-color #fff
   padding-right 16px
   justify-content flex-end
   align-items center
-
+.spaceryay
+  height 52px
 </style>

@@ -3,7 +3,7 @@
     <img
       v-if="$page.frontmatter.heroImage"
       :src="$page.frontmatter.heroImage"
-      :style="{ height: small ? '200px' : '500px' }"
+      :style="{ height: small ? '300px' : '500px' }"
     />
   </section>
 </template>
@@ -24,7 +24,16 @@ export default {
   overflow hidden
   background-color #fff
   position relative
+  &::after
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff)
+    content ''
   img
+    position relative
     width 100%
     object-fit cover
 </style>
