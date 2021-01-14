@@ -1,18 +1,14 @@
 <template>
-  <section class="hero-image">
+  <section class="hero-image" :class="{ small }">
     <img
       v-if="$page.frontmatter.heroImage"
       :src="$page.frontmatter.heroImage"
-      :style="{ height: small ? '300px' : '500px' }"
     />
   </section>
 </template>
 
 <script>
 export default {
-  created() {
-    console.log(this.$page.frontmatter.heroImage);
-  },
   props: {
     small: Boolean,
   },
@@ -24,16 +20,20 @@ export default {
   overflow hidden
   background-color #fff
   position relative
-  &::after
-    position absolute
-    top 0
-    left 0
-    width 100%
-    height 100%
-    background linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff)
-    content ''
+  &.small
+    img
+      height 350px
+    &::after
+      position absolute
+      top 0
+      left 0
+      width 100%
+      height 100%
+      background linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, .6))
+      content ''
   img
     position relative
     width 100%
+    height 500px
     object-fit cover
 </style>

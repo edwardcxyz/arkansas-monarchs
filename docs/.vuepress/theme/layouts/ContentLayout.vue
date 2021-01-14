@@ -70,10 +70,10 @@ import HeroImage from '@theme/components/HeroImage';
 <style lang="stylus" scoped>
 .lifted-container
   position relative
-  top -52px
+  top -112px
 .extra-links
   display flex
-  padding-right 16px
+  padding 8px 64px
   justify-content flex-end
   align-items center
 .spaceryay

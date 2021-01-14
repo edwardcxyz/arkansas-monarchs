@@ -1,6 +1,9 @@
 ---
-layout: PrimaryLayout
+layout: ContentLayout
 heroImage: /img/about-us.png
+extraLinks:
+- name: Learn More
+  url: /lifecycle
 ---
 # About Us
 
