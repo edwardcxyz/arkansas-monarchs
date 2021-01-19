@@ -2,8 +2,8 @@
 layout: ContentLayout
 heroImage: /img/about-us.png
 extraLinks:
-- name: Learn More
-  url: /lifecycle
+- name: Take the Pledge!
+  url: /pledge
 ---
 # About Us
 

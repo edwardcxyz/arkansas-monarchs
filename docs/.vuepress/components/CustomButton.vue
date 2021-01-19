@@ -1,6 +1,6 @@
 <template>
   <div class="custom-button">
-    <a :href="to">
+    <a :href="to" :target="external ? '_blank' : '_self'">
       <slot />
     </a>
   </div>
@@ -11,6 +11,7 @@ export default {
   name: 'CustomButtons',
   props: {
     to: String,
+    external: Boolean,
   },
 }
 </script>
