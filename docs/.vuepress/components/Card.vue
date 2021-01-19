@@ -1,12 +1,15 @@
 <template>
   <article class="feature">
-    <router-link :to="feature.link">
+    <a
+      :href="feature.link"
+      :target="isExternal(feature.link) ? '_blank' : '_self'"
+    >
       <header class="feature-image">
         <img :src="feature.image" :alt="feature.title" />
       </header>
       <h2>{{ feature.title }}</h2>
       <p>{{ feature.details }}</p>
-    </router-link>
+    </a>
   </article>
 </template>
 
@@ -14,7 +17,12 @@
 export default {
   name: 'Card',
   props: {
-    feature: Object, // { title, link, image, details  }
+    feature: Object, // { title, link, image, details }
+  },
+  methods: {
+    isExternal(link) {
+      return link.startsWith('http');
+    },
   },
 };
 </script>
