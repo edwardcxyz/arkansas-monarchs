@@ -1,5 +1,5 @@
 <template>
-  <div id="home-layout" class="theme-container">
+  <div id="content-layout" class="theme-container">
     <header class="main">
       <router-link to="/"><img :src="$site.themeConfig.logo" alt="Arkansas Monarch Conservation Partnership Logo"></router-link>
       <h1>{{ $site.title.toUpperCase() }}</h1>

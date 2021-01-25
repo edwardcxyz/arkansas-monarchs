@@ -17,7 +17,7 @@
 export default {
   name: 'Card',
   props: {
-    feature: Object, // { title, link, image, details }
+    feature: Object, // { title, details, image, link }
   },
   methods: {
     isExternal(link) {
@@ -32,6 +32,8 @@ article.feature
   display flex
   flex-flow column nowrap
   width 250px
+  max-width 250px
+  min-width 250px
   margin 0 24px
   min-height 400px
   border-radius 12px
