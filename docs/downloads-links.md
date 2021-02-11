@@ -6,23 +6,23 @@ linksGrouped:
   links:
   - title: Habitat Establishment on Private Land
     details: Describes site preparation, seeding, and management methods for establishing large and small areas of habitat from seed. 
-    image:
+    image: /img/features/bmp-habitat-establishment.png
     link: https://drive.google.com/file/d/1MXuvnpeVGHM3sCWW0EpYh0Sdhb4jZhNb/view?usp=sharing
   - title: Forested Property
     details: Overview of voluntary forest management actions that benefit monarchs and pollinators.
-    image:
+    image: /img/features/bmp-forested-property.png
     link: https://drive.google.com/file/d/1OUSxVZjRSEm9ib3IYmaf7U9ixV3pY7HW/view?usp=sharing
   - title: Row Crop Farms
     details: Resource for row crop farmers interested in learning more about actions they can take to benefit monarchs and pollinators.
-    image:
+    image: /img/features/bmp-row-crop-farms.png
     link: https://drive.google.com/file/d/1-Kaqv-T79D9RLd5KmJ6xqK-p4AhE9VvY/view?usp=sharing
   - title: Pastures and Hay Meadows
     details: Landowners interested in grazing and haying their property can use these recommendations to also benefit monarchs and pollinators.
-    image:
+    image: /img/features/bmp-pastures-and-hay-meadows.png
     link: https://drive.google.com/file/d/1tMhzd4f11TMTn0bUmdmj8lvexJv0ZuC6/view?usp=sharing
   - title: Rights-of-Way (ROW)
     details: Pipeline, powerline, and roadside rights-of-way can provide important habitat for pollinators.
-    image:
+    image: /img/features/bmp-rights-of-way.png
     link: https://drive.google.com/file/d/1Sm_kqez3VqQUTxyKE-RaBYqF4UctSdPe/view?usp=sharing
 - title: Native Plant Resources
   links:
