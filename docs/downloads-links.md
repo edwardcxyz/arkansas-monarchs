@@ -28,25 +28,25 @@ linksGrouped:
   links:
   - title: Arkansas Native Plants List
     details: View our recommended Arkansas Native Plants List for Supporting Monarchs and Pollinators!
-    image:
+    image: /img/features/ar-native-plants.png
     link: https://drive.google.com/file/d/1TB4Zu1YdDQ4ORpZdHM8oYk2R0U5FUhJV/view?usp=sharing
   - title: Native Plant Care Guide
     details: This companion resource provides care and maintenance tips for our Arkansas Native Plants List in a formal garden setting.
-    image:
+    image: /img/features/plant-care-guide.png
     link: https://drive.google.com/file/d/18-zaAXeUsyFFg9RVMpw36kDNRpju-e7v/view?usp=sharing
   - title: Native Gardening for Arkansas Pollinators
     details: This brochure is a quick reference guide that covers the basics of getting started with native plant gardening.
-    image:
+    image: /img/features/native-gardening-for-pollinators.png
     link: https://drive.google.com/file/d/1aM_b4C_rx9WybbR6XjJOiYaPgC-VdzzV/view
 - title: Coloring Sheets
   links:
   - title: Monarch Life Cycle Coloring Sheet
     details: Print and share this free coloring sheet that depicts the life cycle of the magnificent monarch!
-    image:
+    image: /img/features/lifecycle-coloring-sheet.png
     link: https://drive.google.com/file/d/101n6cJ01Fg6uaiCibLHH7BNcTWhK3Qpb/view?usp=sharing
   - title: Bee and Butterfly Coloring Sheet
     details: Print and share this free coloring sheet highlighting Arkansas native pollinators!
-    image:
+    image: /img/features/bee-butterfly-coloring-sheet.png
     link: https://drive.google.com/file/d/1OsaSYblb0Y7ubtVWUxQzTO_Yfg8GvNXz/view?usp=sharing
 ---
 # Downloads and Links
