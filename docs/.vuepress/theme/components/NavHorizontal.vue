@@ -1,7 +1,7 @@
 <template>
   <nav class="horizontal-nav">
     <template v-for="item in $site.themeConfig.links">
-      <nav-link v-if="!item.children" :item="{ text: item.text, link: item.link }" />
+      <nav-link v-if="!item.children" :item="item" />
       <nav-link-group v-else :text="item.text" :items="item.children" /> 
     </template>
   </nav>
@@ -14,9 +14,6 @@ import NavLinkGroup from '@theme/components/NavLinkGroup';
 export default {
   name: 'NavHorizontal',
   components: { NavLink, NavLinkGroup },
-  created() {
-    console.log('links', this.$site.themeConfig.links);
-  }
 }
 </script>
 

@@ -51,10 +51,6 @@ import HeroImage from '@theme/components/HeroImage';
           .sort((a, b) => a.footerIndex - b.footerIndex);
       }
     },
-    created() {
-      // console.log(this.$site);
-      // console.log(this.$page);
-    }
   }
 </script>
 
