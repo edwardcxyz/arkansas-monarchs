@@ -57,9 +57,6 @@ article.feature
     font-size 14px
     border-bottom 0
     padding-left 16px
-    padding-bottom 0
-    padding: 8px 0 0 16px
-    width: 100%
     font-weight 700
     text-transform uppercase
   p
