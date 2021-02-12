@@ -124,7 +124,7 @@ module.exports = {
         text: 'Resources',
         children: [
           { text: 'Downloads and Links', link: '/downloads-links' },
-          { text: 'Landowner Resources', link: '/resources', footerIndex: 9 },
+          { text: 'Landowner Resources', link: '/landowner', footerIndex: 9 },
           { text: 'Arkansas Native Plants', link: '/native-plants' },
           { text: 'Webinars', link: '/webinars' },
         ],
