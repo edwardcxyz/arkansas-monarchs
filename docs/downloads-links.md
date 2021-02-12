@@ -1,6 +1,6 @@
 ---
 layout: ContentLayout
-heroImage: img/hero-05.jpg
+heroImage: img/hero/landowner-resources.png
 linksGrouped:
 - title: Best Management Practice for Pollinators
   links:
