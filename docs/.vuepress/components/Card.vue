@@ -49,9 +49,11 @@ article.feature
     overflow hidden
     border-top-left-radius 12px
     border-top-right-radius 12px
+    background-color #fff
     img
       width: 100%
       height 100%
+      object-fit scale-down
   h2
     font-size 14px
     border-bottom 0
