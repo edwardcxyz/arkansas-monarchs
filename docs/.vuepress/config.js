@@ -127,6 +127,7 @@ module.exports = {
           { text: 'Landowner Resources', link: '/landowner', footerIndex: 9 },
           { text: 'Arkansas Native Plants', link: '/native-plants' },
           { text: 'Webinars', link: '/webinars' },
+          { text: 'Scholarly Publications', link: '/publications.md' },
         ],
       },
       { text: 'Events', link: '/events', footerIndex: 10 },
