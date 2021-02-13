@@ -39,7 +39,7 @@ export default {
     text-transform uppercase
     padding 16px 8px
     white-space nowrap
-    font-weight 500
+    font-weight 400
     &.hover
       background-color rgb(52, 63, 42)
   ul
