@@ -56,13 +56,15 @@ export default {
     filteredPlants() {
       let result;
       if (this.season) {
-        result = this.plants.filter((p) => p.bloomPeriod === this.season);
+        if (this.season !== 'All') {  
+          result = this.plants.filter((p) => p.bloomPeriod === this.season);
+        }
       }
-      if (this.lighting) {
+      if (this.lighting && this.lighting !== 'All') {
         result = result.filter((p) => p.lighting === this.lighting);
       }
-      if (this.water) {
-        result = result.filter((p) => p.water === this.water);
+      if (this.water && this.water !== 'All') {
+        result = result.filter((p) => p.water.includes(this.water));
       }
       return result;
     },
