@@ -28,7 +28,7 @@ you ensure that all of the species in the mix are native to Arkansas.
 &nbsp;
 :::
 
-# [Natural Resources Convservation Service (NRCS)](https://www.nrcs.usda.gov/wps/portal/nrcs/ar/contact/local/)
+# [Natural Resources Conservation Service (NRCS)](https://www.nrcs.usda.gov/wps/portal/nrcs/ar/contact/local/)
 Contact your local NRCS field office for free technical assistance and to learn 
 what federal Farm Bill programs you may be eligible for to implement beneficial 
 practices for monarchs, pollinators, and other wildlife.
