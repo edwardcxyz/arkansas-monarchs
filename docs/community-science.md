@@ -32,6 +32,6 @@ To determine monarch migration routes, and weather influence and survival during
 ## Project Monarch Health
 [Project Monarch Health](https://www.monarchparasites.org/) is a collaborative study between citizen scientists and the University of Georgia to better understand Ophryocystis elektroscirrha, a microscopic protozoan parasite of monarchs more commonly known as OE. Volunteers can obtain testing kits and learn how to properly handle and test monarchs for OE spores. See their website for more details.
 
-:::warning This website is still under constuction
+:::danger This website is still under constuction
 We apologize for any inconvenience. Check back later for additional information and resources. In the meantime, enjoy what is currently posted and feel free to contact us if you have any questions.
 :::
