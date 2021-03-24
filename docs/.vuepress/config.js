@@ -79,6 +79,7 @@ module.exports = {
       '/join-us',
       '/native-plants',
       '/webinars',
+      '/community-science',
     ],
     links: [
       {
@@ -116,7 +117,7 @@ module.exports = {
         text: 'Get Involved',
         children: [
           { text: 'Create Habitat', link: '/create-habitat', footerIndex: 8 },
-          { text: 'Participate in Citizen Science', link: '/resources' },
+          { text: 'Participate in Community Science', link: '/community-science' },
           { text: 'Sign the Pledge', link: '/pledge' },
         ],
       },
