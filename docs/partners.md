@@ -97,14 +97,6 @@ partners:
   twitter: 
   image: /img/logo/botanical-garden-ozarks.jpg
 
-- name: Center for Advanced Spatial Technologies
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
-
 - name: Central Arkansas Water
   about: Central Arkansas Water is a metropolitan water system that serves almost 500,000 Arkansans in eight counties. We have 125,000 residential, commercial, industrial, and master-metered customers in Pulaski, Saline, and Grant counties. Our utility currently is a core partner in a regional initiative to secure a future source for the entirety of Central Arkansas, an urban area with a population of more than 750,000 people.
   home: https://carkw.com 
@@ -138,14 +130,6 @@ partners:
   twitter: 
   image: /img/logo/lr-parks.jpg
 
-- name: Lori Spencer
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
-
 - name: National Center for Appropriate Technology
   about: 
   home: 
@@ -153,14 +137,6 @@ partners:
   instagram: 
   twitter: 
   image: /img/logo/national-center-for-appropriate-technology.png
-
-- name: National Park Service - Pea Ridge National Military Park
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
 
 - name: National Wildlife Federation
   about: In 2015, NWF joined with USFWS, Monarch Joint Venture, Xerces Society, Monarch Watch and others to support a joint implementation of a Monarch Conservation Strategy in the U.S. NWF has worked with federal, state and local government agencies, NGOs, farmers, transportation officials, ranchers and other large landowners, homeowners, schools and industry, via an “all hands on deck” approach to monarch butterfly conservation. The NWF’s Mayors’ Monarch Pledge, initiated in October 2016, has engaged over 268 mayors and other local government chief executives across the nation.
@@ -177,14 +153,6 @@ partners:
   instagram: https://www.instagram.com/nwacc/?hl=en
   twitter: https://twitter.com/NWACC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
   image: /img/logo/nwa-community-college.png
-
-- name: Pine Ridge Gardens
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
 
 - name: Pulaski Conservation District
   about: Founded as part of the Lonoke-Pulaski Soil Conservation District in 1946 and later organized as the Pulaski Conservation District in 1955, the District has a proud history of over 60 years of service to farmers, ranchers, foresters, and urban landowners. Our mission is to plan and conduct programs for the conservation and efficient use of land, water, and related natural resources in Pulaski County, Arkansas.
@@ -225,38 +193,6 @@ partners:
   instagram: 
   twitter: 
   image: /img/logo/usfws.png
-
-- name: U.S. Forest Service - Ouachita National Forest
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
-
-- name: U.S. Forest Service - Ozark-St. Francis National Forest
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
-
-- name: University of Arkansas System Division of Agriculture Cooperative Extension Service
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
-
-- name: US Army Corps of Engineers
-  about: 
-  home: 
-  facebook: 
-  instagram: 
-  twitter: 
-  image: 
 
 - name: USDA Natural Resources Conservation Service (NRCS)
   about: Natural Resources Conservation Service recognizes and promotes the role of agriculture in monarch conservation. In order to do this, NRCS promotes habitat areas and understands these areas in Arkansas connect with national goals. Partnership opportunities help NRCS foster and enhance the implementation of monarch habitat on agricultural and rural landscapes. Some of the programs NRCS helps sponsor include&#58; Conservation Stewardship Program (CStP), Environmental Quality Incentives Program (EQIP), and Agricultural Conservation Easement Program – Wetland Reserve Easements (ACEP-WRE).
