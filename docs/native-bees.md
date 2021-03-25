@@ -4,6 +4,8 @@ heroImage: /img/native-bees.jpg
 ---
 # Native Bees
 
+<article>
+
 There are approximately 4,000 species of native bees in North America. These native bees 
 have special habitat requirements: foraging habitat, nesting habitat, and overwintering 
 habitat. These habitat needs can be met by the same high-quality habitat that benefits 
@@ -13,7 +15,12 @@ Native bees maintain 80% of our native plant species and improve yields of 75% o
 They provide valuable ecosystem services and provide $14.4 billion worth of pollination 
 annually in North America alone.
 
+</article>
+
 ## Solitary Vs. Social Bees
+
+<article>
+
 Of the 4,000 species of native bees in North America, more than 90% of them are solitary. 
 This means that each female constructs and provisions her own nest without help from 
 other members of her species. Bumble bees are the best-known native social bees, though 
@@ -23,8 +30,12 @@ Unlike honey bees and wasps, native solitary bees are docile and do not attempt 
 humans unless handled. This is because they do not have a nest to defend. Only female 
 bees are capable of stinging, though they rarely do.
 
+</article>
+
 ## Bumble Bees
-![Native Bees 2](img/native-bees-02.png)
+<section class="content">
+
+<article>
 
 Bumble bees are prolific pollinators. There are 47 Bombus species in North America. 
 Unlike European honey bees, bumble bees have annual colonies. Only queen bumble bees 
@@ -36,8 +47,18 @@ flight muscles to vibrate at high frequencies to effectively release pollen from
 flower’s anthers. Other native bees, like carpenter bees and sweat bees, are also able 
 to use buzz pollination while foraging. European honey bees do not sonicate.
 
+</article>
+
+![Native Bees 2](img/native-bees-02.png)
+
+</section>
+
 ## Ground-Nesting Bees
+<section class="content">
+
 ![Ground-nesting Bees](img/ground-nesting.png)
+
+<article>
 
 About 70% of North America’s native bees (approximately 2,800 species) are solitary 
 ground-nesters. Depending on the species, the bees dig in bare, or sparsely-vegetated, 
@@ -45,8 +66,15 @@ soil to make their nests. Nest configurations range from a short, single tunnel,
 complex, branching tunnel systems. It is important to minimize or avoid soil disturbance 
 in pollinator habitat to prevent destroying existing nests or potential nesting sites.
 
+</article>
+</section>
+
 ## Wood- and Tunnel-Nesting Bees
+<section class="content">
+
 ![Wood- and Tunnel-Nesting Bees](img/wood-nesting.png)
+
+<article>
 
 About 30% of North America’s native bees (approximately 1,200 species) are 
 tunnel-nesters. Many tunnel-nesting species use abandoned beetle burrows in standing 
@@ -58,6 +86,10 @@ these synthetic house responsibly if you choose to use them in your pollinator h
 There are resources online for building your own and cleaning recommendations. Because 
 these are solitary bee species, these “bee blocks” can increase disease, fungus, and 
 parasite transmission between individuals, especially if not properly maintained.
+
+</article>
+
+</section>
 
 :::tip If you’re interesting in learning more about our native bees, we recommend beginning with:
 * _Attracting Native Pollinators: Protecting North America’s Bees and Butterflies_ 
@@ -73,11 +105,21 @@ Trends in Ecology and Evolution_ 25(6), 345-353.
 ---
 
 # Habitat Needs
-![Native bee habitat needs](img/habitat-needs-01.png)
+<section class="content">
+
+<article>
 
 Our native bees require: 1) foraging habitat, 2) nesting habitat, and 3) overwintering 
-habitat. It is important to understand the diversity of our native bee species. It is 
+habitat.
+
+It is important to understand the diversity of our native bee species. It is 
 estimated that Arkansas likely has 400 - 650 species of native bees.
+
+</article>
+
+![Native bee habitat needs](img/habitat-needs-01.png)
+
+</section>
 
 ## Foraging Habitat
 When planning pollinator habitat, a maximum diversity of Arkansas native plant species 
@@ -105,4 +147,3 @@ management.
 
 <custom-button to="habitat">Create Habitat</custom-button>
 <custom-button to="resources">Landowner Resources</custom-button>
-

@@ -53,17 +53,3 @@ Once the adult monarch emerges from the chrysalis, it pumps fluids from its abdo
 ![Adult Butterfly](/img/lifecycle/adult-butterfly.jpg)
 
 </section>
-
-<style lang="stylus">
-section.content
-  display flex
-  align-items center
-  img
-    min-width 350px
-  p, article
-    display flex
-    flex-flow column nowrap
-    line-height 32px
-  p:not(:first-child), article:not(:first-child)
-    margin-left 32px
-</style>
