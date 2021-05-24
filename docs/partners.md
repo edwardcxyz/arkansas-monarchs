@@ -204,7 +204,7 @@ partners:
 
 - name: Wild Ones, Ozark Chapter
   about: Wild Ones&#58; Native Plants, Natural Landscapes is a non-profit organization founded in 1990 that promotes environmentally sound landscaping practices to preserve biodiversity through the preservation, restoration and establishment of native plant communities. With over 4,500 members across 19 states, Wild Ones has become the most widely recognized voice for native plants and the sustainable landscaping movement.
-  home: https://wildones.org/
+  home: https://ozark.wildones.org/
   facebook: https://www.facebook.com/OzarkWildOnes
   instagram: 
   twitter: 
