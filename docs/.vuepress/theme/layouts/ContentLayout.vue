@@ -23,7 +23,7 @@
 
       <footer>
         <section class="main links">
-          <nav-link v-for="link in footerLinks" :item="link" />
+          <nav-link v-for="link in footerLinks" :item="link" is-footer />
         </section>
         <section class="main attributions">
           <a href="https://monarchjointventure.org/" target="_blank"><img src="/img/mjv-proud-partner.png"></NavLink></a>

@@ -6,7 +6,7 @@
     :exact="exact"
     @focusout.native="focusoutAction"
   >
-    <template v-if="item.text === 'Home'">
+    <template v-if="item.text === 'Home' && !isFooter">
       <div class="home-icon">
         <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 0.937988L0 8.01926V9.35881H1.69698V14.938H5.93942V11.5047H8.06064V14.938H12.303V9.35881H14V8.01926L7 0.937988ZM11.0303 8.07132V13.6505H9.33332V10.2172H4.66668V13.6505H2.9697V8.07132H1.74844L7 2.75876L12.2516 8.07132H11.0303Z" fill="white"/>
@@ -37,9 +37,8 @@ export default {
   name: 'NavLink',
 
   props: {
-    item: {
-      required: true,
-    },
+    item: Object,
+    isFooter: Boolean,
   },
 
   computed: {
