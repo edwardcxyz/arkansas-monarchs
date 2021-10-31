@@ -96,10 +96,6 @@ parasite transmission between individuals, especially if not properly maintained
 (A Xerces Society Guide; 2011)
 * _The Bees in Your Backyard: A Guide to North America’s Bees_ by Joseph S. Wilson & Olivia 
 Messinger Carril, 2015
-* Gallai, N., et al. (2009) _Economic valuation of the vulnerability of world agriculture 
-confronted with pollinator decline._ Ecological Economics 68(3), 810-821.
-* Potts, S. G., et al. (2010) _Global pollinator declines: trends, impacts and drivers. 
-Trends in Ecology and Evolution_ 25(6), 345-353.
 :::
 
 ---
