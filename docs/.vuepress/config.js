@@ -91,8 +91,8 @@ module.exports = {
         text: 'About Us',
         children: [
           { text: 'About Us', link: '/about-us', footerIndex: 2 },
-          { text: 'Join Us', link: '/join-us' },
           { text: 'Partners', link: '/partners' },
+          { text: 'Join Us', link: '/join-us' },
         ],
       },
       {
@@ -116,6 +116,7 @@ module.exports = {
       {
         text: 'Get Involved',
         children: [
+          { text: 'Events', link: '/events', footerIndex: 9 },
           { text: 'Create Habitat', link: '/create-habitat', footerIndex: 8 },
           { text: 'Participate in Community Science', link: '/community-science' },
           { text: 'Sign the Pledge', link: '/pledge' },
@@ -125,13 +126,12 @@ module.exports = {
         text: 'Resources',
         children: [
           { text: 'Downloads and Links', link: '/downloads-links' },
-          { text: 'Landowner Resources', link: '/landowner', footerIndex: 9 },
+          { text: 'Landowner Resources', link: '/landowner', footerIndex: 10 },
           { text: 'Arkansas Native Plants', link: '/native-plants' },
           { text: 'Webinars', link: '/webinars' },
           { text: 'Scholarly Publications', link: '/publications.md' },
         ],
       },
-      { text: 'Events', link: '/events', footerIndex: 10 },
     ],
   },
 };
