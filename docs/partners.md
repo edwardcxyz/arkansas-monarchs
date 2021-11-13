@@ -1,14 +1,6 @@
 ---
 layout: PrimaryLayout
 partners:
-- name: University of Central Arkansas
-  about: The mission of the UCA Biology Department is to promote, enhance, and contribute to the science of biology by offering undergraduate and graduate degree programs, engaging in biological research and actively assisting the individuals and organizations in our community. The biology program also contributes to the education of all UCA students through its general education biology course and plays a significant role in supporting the curriculum for programs in the College of Health and Behavioral Sciences.
-  home: https://uca.edu/biology/
-  facebook: https://www.facebook.com/Department-of-Biology-University-of-Central-Arkansas-78013286915/?ref=page_internalArkansas-Association-of-Conservation-Districts-283331731714787/
-  instagram: https://www.instagram.com/uca_biology/?hl=en
-  twitter: https://twitter.com/ucabears
-  image: /img/logo/uca_logo.png
-
 - name: Arkansas Association of Conservation Districts
   about: The purpose and mission of The Arkansas Association of Conservation Districts is to assist the conservation districts of the state of Arkansas in their efforts to serve the soil and water conservation needs of the people of Arkansas.
   home: https://aracd.org/default.htm
@@ -193,6 +185,14 @@ partners:
   instagram: https://www.instagram.com/nature_arkansas/
   twitter: N/A
   image: /img/logo/nature-conservancy.jpg
+
+- name: University of Central Arkansas
+  about: The mission of the UCA Biology Department is to promote, enhance, and contribute to the science of biology by offering undergraduate and graduate degree programs, engaging in biological research and actively assisting the individuals and organizations in our community. The biology program also contributes to the education of all UCA students through its general education biology course and plays a significant role in supporting the curriculum for programs in the College of Health and Behavioral Sciences.
+  home: https://uca.edu/biology/
+  facebook: https://www.facebook.com/Department-of-Biology-University-of-Central-Arkansas-78013286915/?ref=page_internalArkansas-Association-of-Conservation-Districts-283331731714787/
+  instagram: https://www.instagram.com/uca_biology/?hl=en
+  twitter: https://twitter.com/ucabears
+  image: /img/logo/uca_logo.png
 
 - name: U.S. Fish and Wildlife Service
   about: The U.S. Fish and Wildlife Service recognizes that actions taken by agencies, organizations, business, and citizens can make a difference in the decline of monarchs and other pollinators by providing native plants as host plants and nectar sources. The USFWS is evaluating a proposal to see if the monarch should be listed as threatened or endangered, with a decision expected by December 2020. Arkansas is an important area for the iconic monarch migration and offers many opportunities to benefit the pollinators and people in The Natural State.
