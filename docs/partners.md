@@ -121,6 +121,14 @@ partners:
   twitter: 
   image: /img/logo/enable-midstream.jpg
 
+- name: Lightsource bp
+  about: Lightsource bp is a global leader in the development and management of solar energy projects, and a 50:50 joint venture with bp. For over a decade, we have been constructing solar farms with a Responsible Solar approach – taking steps to not only minimize the effect to the land but also to improve soil health and boost biodiversity wherever possible. At our projects in Arkansas and across the United States, we recognize large potential for pollinator-friendly solar to deliver ecosystem and agricultural benefits – yielding benefits for a range of stakeholders, from solar developers to farmers to surrounding communities.
+  home: https://www.lightsourcebp.com/us/
+  facebook: https://www.facebook.com/Lightsourcebp
+  instagram: https://www.instagram.com/lightsourcebp/
+  twitter: https://twitter.com/lightsourcebp
+  image: /img/logo/lightsource_bp.png
+  
 - name: Little Rock Parks and Recreation
   about: No matter where you live in Little Rock you're only minutes from the wide open spaces of a City Park – and some of the most fun things to do in Little Rock! Whether you live in downtown, midtown, north, south, east, west or southwest, you’re not far from the best free family fun in Little Rock. Our city is nestled among a profusion of open green spaces and natural areas set aside for recreational, educational, ecological and aesthetic benefits for the people who live here to enjoy at their leisure.
   about2: Little Rock's parks system is not only a source of pride for the city, but it has received national recognition for excellence! Little Rock Parks & Recreation became the 30th agency in the United States to receive accreditation of Parks and Recreation Agencies. Come find family fun in Little Rock at one of our many parks.
