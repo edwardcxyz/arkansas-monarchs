@@ -73,13 +73,13 @@ partners:
   twitter: 
   image: /img/logo/ar-wildlife-fed.jpg
 
-- name: Audubon Arkansas
-  about: Audubon Arkansas, a division of the National Audubon Society, protects birds and the places they need, today and tomorrow, using science, advocacy, education, and on-the-ground conservation. Through our Working Lands and Plants for Birds initiatives, Audubon is building both the supply of and the demand for native plants that birds, butterflies, and other wildlife need.
+- name: Audubon Delta
+  about: Audubon Delta, a division of the National Audubon Society, protects birds and the places they need, today and tomorrow, using science, advocacy, education, and on-the-ground conservation. Through our Working Lands and Plants for Birds initiatives, Audubon is building both the supply of and the demand for native plants that birds, butterflies, and other wildlife need.
   home: https://ar.audubon.org/
   facebook: https://www.facebook.com/audubonarkansas
   instagram: 
   twitter: 
-  image: /img/logo/audubon.png
+  image: /img/logo/Audubon_V_BLK_DL.png
 
 - name: Black Sumac Design
   about: Black Sumac Design is a young design company, including both exterior and interior design. Our primary field is exteriors concentrating on landscapes and land management from a conservation angle.
