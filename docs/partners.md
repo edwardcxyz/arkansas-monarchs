@@ -168,6 +168,7 @@ partners:
   facebook:
   instagram:
   twitter:
+  linkedin: https://www.linkedin.com/company/pedal-steel-solar/
   image: /img/logo/pedalsteelsolar.png
 
 - name: Pulaski Conservation District

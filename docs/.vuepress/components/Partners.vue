@@ -22,6 +22,9 @@
               <a v-if="partner.twitter" :href="partner.twitter" target="_blank">
                 <img src="/img/twitter.png" alt="twitter logo icon" />
               </a>
+              <a v-if="partner.linkedin" :href="partner.linkedin" target="_blank">
+                <img src="/img/linkedin.png" alt="linkedin logo icon" />
+              </a>
             </div>
           </div>
         </div>
