@@ -32,7 +32,7 @@
             <a href="https://www.facebook.com/ArkansasMonarchs/" target="_blank"><img src="/img/facebook.png" alt="Facebook"></a>
             <a href="https://www.youtube.com/channel/UCXm9CFbm8-HbRUvbe6jsjiQ" target="_blank"><img src="/img/youtube.png" alt="YouTube"></a>
           </div>
-          <div>&copy; 2020 Arkansas Monarch Conservation Partnership</div>
+          <div>&copy; 2022 Arkansas Monarch Conservation Partnership</div>
         </section>
       </footer>
     </div>

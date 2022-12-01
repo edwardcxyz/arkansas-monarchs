@@ -66,7 +66,7 @@ partners:
   image: /img/logo/ar-state-parks.png
 
 - name: Arkansas Wildlife Federation
-  about: Established in 1936, the Arkansas Wildlife Federation (AWF) advocates for sustainable use of Arkansas' wildlife habitats and natural resources for future generations. Through its long history, AWF has worked with agencies and organizations to conserve & protect wildlife & habitat, advocate for wildlife, sportsmen & outdoor enthusiasts and inform & educate about conservation issues in Arkansas and nationally.  
+  about: Established in 1936, the mission of Arkansas Wildlife Federation (AWF) is to ensure a thriving future for Arkansas wildlife. Throughout its long history, AWF has worked with agencies and organizations to conserve & protect wildlife & habitat, advocate for wildlife and outdoor enthusiasts, and inform & educate about conservation issues in Arkansas and nationally.  
   home: https://www.arwild.org/
   facebook: https://www.facebook.com/ArkansasWildlifeFederation
   instagram: 
@@ -161,6 +161,14 @@ partners:
   instagram: https://www.instagram.com/nwacc/?hl=en
   twitter: https://twitter.com/NWACC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
   image: /img/logo/nwa-community-college.png
+
+- name: Pedal Steel Solar
+  about: Pedal Steel Solar is a solar development company headquartered in Bentonville, Arkansas, with a mission to lead the build-out of large-scale solar projects in the U.S heartland.
+  home: https://pedalsteelsolar.com/
+  facebook:
+  instagram:
+  twitter:
+  image: /img/logo/pedalsteelsolar.png
 
 - name: Pulaski Conservation District
   about: Founded as part of the Lonoke-Pulaski Soil Conservation District in 1946 and later organized as the Pulaski Conservation District in 1955, the District has a proud history of over 60 years of service to farmers, ranchers, foresters, and urban landowners. Our mission is to plan and conduct programs for the conservation and efficient use of land, water, and related natural resources in Pulaski County, Arkansas.

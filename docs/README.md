@@ -27,5 +27,5 @@ stats:
   value: 46
 - title: AR Farmers & Ranchers Planting Pollinator Habitat
   value: 195
-footer: ©2020 Arkansas Monarch Conservation Partnership
+footer: ©2022 Arkansas Monarch Conservation Partnership
 ---

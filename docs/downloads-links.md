@@ -33,7 +33,7 @@ linksGrouped:
   - title: Native Plant Care Guide
     details: This companion resource provides care and maintenance tips for our Arkansas Native Plants List in a formal garden setting.
     image: /img/features/plant-care-guide.png
-    link: https://drive.google.com/file/d/18-zaAXeUsyFFg9RVMpw36kDNRpju-e7v/view?usp=sharing
+    link: https://drive.google.com/file/d/1H9MiW8weWuOPy45RTg0SuqMCso0I459w/view?usp=sharing
   - title: Native Gardening for Arkansas Pollinators
     details: This brochure is a quick reference guide that covers the basics of getting started with native plant gardening.
     image: /img/features/native-gardening-for-pollinators.png
