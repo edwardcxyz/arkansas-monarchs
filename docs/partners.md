@@ -17,6 +17,14 @@ partners:
   twitter: https://twitter.com/ARDeptofAgricul
   image: /img/logo/ar-dept-of-ag.png
 
+- name: Arkansas Department of the Military
+  about: The Arkansas Department of the Military’s Environmental Office’s purpose and mission is to manage, conserve, and restore Arkansas’s military training lands to the best ecological condition possible; to preserve our wildlife and their habitats and to fully support current and future mission requirements for mission sustainability. These efforts help to ensure that the Arkansas National Guard can continue to serve our community and country by providing ready, trained, and responsive community-based units that support the State and defend the Nation.
+  home: https://military.arkansas.gov/
+  facebook: https://www.facebook.com/ROBINSONMANEUVERTRAININGCENTER/
+  instagram: 
+  twitter: 
+  image: /img/logo/ar-dept-military.jpg
+
 - name: Arkansas Department of Transportation
   about: ArDOT’s vision is to continue to preserve and improve Arkansas’ transportation system emphasizing safety, efficiency, quality, trust, and stewardship with a public service focused workforce.
   home: http://arkansashighways.com/
