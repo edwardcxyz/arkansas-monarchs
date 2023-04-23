@@ -16,6 +16,9 @@
               <a v-if="partner.facebook" :href="partner.facebook" target="_blank">
                 <img src="/img/facebook.png" alt="facebook logo icon" />
               </a>
+              <a v-if="partner.facebook2" :href="partner.facebook2" target="_blank">
+                <img src="/img/facebook.png" alt="facebook logo icon" />
+              </a>
               <a v-if="partner.instagram" :href="partner.instagram" target="_blank">
                 <img src="/img/instagram.png" alt="instagram logo icon" />
               </a>
